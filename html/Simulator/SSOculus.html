@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles.css">
+  <title>AiBIM_Simulation</title>
+  <script src="https://aframe.io/releases/1.4.0/aframe.min.js"></script>
+  <script src="/js/bundle.js"></script>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/task.js"></script>
+  <script src="/js/buttons.js"></script>
+  <script src="/js/updateInfo.js"></script>
+  <script src="/js/overlay.js"></script>
+  <script src="/js/stringConverter.js"></script>
+  <script>
+
+    var strConverter = new StringConverter();
+
+    // 현재 마우스 위치 알아내기
+    var curMv;
+    document.addEventListener('mousemove', (event) => {
+      const x1 = event.clientX;
+      const x2 = document.querySelectorAll('#a_scene')[0].clientWidth;
+      const y1 = event.clientY;
+      const y2 = document.querySelectorAll('#a_scene')[0].clientHeight;
+
+      curMv = {
+        x: (x1 / x2) * 2 - 1,
+        y: - (y1 / y2) * 2 + 1
+      };
+    });
+
+    // raycasting 함수 for laser-controls
+    function getPickingRaycaster(entity) {
+      var laserPoint = entity;
+      let raycaster = laserPoint.components['raycaster'].raycaster;
+      return raycaster;
+    }
+
+    // click 하는 object highlight 하는 material
+    const mat = new MeshLambertMaterial({
+      transparent: true,
+      opacity: 0.4,
+      color: 0x000000,
+      depthTest: false
+    });
+
+    // 선택한 object 해당되는 날짜 보여주기
+    function showDateInfo(guid) {
+      let tskElm = taskScheduler.find_element(guid);
+      var buildingDate = document.querySelector('#buildingDate'); // 바 위에 현재 날짜 표시  
+      var curDt = "";
+      if (tskElm != null) {
+        curDt = `${tskElm?.sdate.toLocaleDateString()} ~ ${tskElm?.edate.toLocaleDateString()}`;
+      }
+      buildingDate.setAttribute("value", curDt);
+    }
+
+    // 선택한 object 해당되는 가격 보여주기
+    function showCostInfo(guid) {
+      let tskElm = taskScheduler.find_element(guid);
+      var selectedCost = document.querySelector('#currentCost');
+      var curCt = tskElm?.cost ?? "";
+      curCt = Math.round(curCt);
+      curCt = curCt.toLocaleString('en-US');
+      selectedCost.setAttribute("value", curCt);
+    }
+
+    //부모 계단 express Id 찾는 함수
+    function GetParentStairId(expid){
+      let hasChild = false
+      for(let stair of stMap.values()){
+        if(stair.children != null){
+          //자식 중에 express id가 일치하는 자식을 찾는다
+          for(let ch of stair.children){
+            if(ch.expressID == expid)
+            {
+              hasChild = true
+              return stair.expressID;
+            }
+          }
+        }
+      }
+      // 자식이 없을 경우 본래 expressid를 return
+      if(hasChild == false)
+        return expid
+    }
+
+    // object 선택시 시공 날짜와 측정 금액 보여주는 함수
+    function GetDateCost(id){
+        ifcLoader.ifcManager.getItemProperties(0, id).then(props_ => {
+        guid = props_.GlobalId.value;
+        showDateInfo(guid);
+        showCostInfo(guid);
+      });
+    }
+
+    // object 선택시 정보 보여주는 component
+    AFRAME.registerComponent("cursor_click", {
+      init: function () {
+        let onClick = (e) => {
+          let raycaster = null;
+          if (e.target?.hasAttribute("laser-controls")) {
+            raycaster = getPickingRaycaster(e.target);
+          }
+          else if (e.target?.hasAttribute("cursor")) {
+            if (AFRAME.scenes[0].states.indexOf("vr-mode") > -1) {
+              return;
+            }
+            raycaster = new THREE.Raycaster();
+            let cam = document.querySelector("[camera]").getObject3D('camera');
+            raycaster.setFromCamera(curMv, cam);
+          }
+
+          intersects = raycaster.intersectObject(scene).filter(o_ => o_.object?.visible == true)[0]; // 아직 load되지 않은 object는 클릭되지 않게
+          // modelid = intersects.object.modelID;
+          modelid = 0;
+
+          if (intersects) {
+            const index = intersects.faceIndex;
+            const geometry = intersects.object.geometry;
+            const ifc = ifcLoader.ifcManager;
+            const expid = ifc.getExpressId(geometry, index);
+            exIds = [expid];
+            let prpsets = ifc.getPropertySets(modelid, expid, false);
+            const type = ifc.getIfcType(modelid, expid);
+
+            console.log(type, expid);
+
+            //계단일 경우
+            if(type == "IFCSTAIR"){
+              let pId = GetParentStairId(expid);
+              prpsets = ifc.getPropertySets(modelid, pId, false);
+              GetDateCost(pId)
+            }
+            else{
+              GetDateCost(expid)
+            }
+            // click한 object higlight
+            ifc.createSubset({
+              modelID: modelid,
+              ids: exIds,
+              material: mat,
+              scene: scene,
+              removePrevious: true,
+            });
+          }
+          else {
+            ifcLoader.ifcManager.removeSubset(modelid, mat);
+          }
+        };
+
+        if (this.el.hasAttribute("laser-controls")) {
+          this.el.addEventListener("triggerdown", (e) => { onClick(e) });
+        }
+        else if (this.el.hasAttribute("cursor")) {
+          this.el.addEventListener("click", (e) => { onClick(e) });
+        }
+      }
+    });
+
+  </script>
+</head>
+
+<body>
+  <canvas id="three-canvas"></canvas>
+  <a-scene id="a_scene" background="color: #837E7C" cursor="rayOrigin: mouse; fuse: false"
+    raycaster="objects: .raycastable" vr-mode-ui="enabled: true" class="a-enter-vr">
+
+    <!-- 이미지 로딩 -->
+    <a-assets>
+      <img id="replay" src="/img/replay.png">
+      <img id="play" src="/img/play.png">
+      <img id="pause" src="/img/pause.png">
+      <img id="wbtnimg" src="/img/wbtn.png">
+      <img id="sbtnimg" src="/img/sbtn.png">
+      <img id="abtnimg" src="/img/abtn.png">
+      <img id="dbtnimg" src="/img/dbtn.png">
+      <img id="visible" src="/img/visible1.png">
+      <img id="invisible" src="/img/blind.png">
+      <img id="upimg" src="/img/up.png">
+      <img id="downimg" src="/img/down.png">
+      <img id="exitimg" src="/img/exit.png">
+    </a-assets>
+
+    <!-- ifc 로딩 -->
+    <a-entity id="a_world" position="-5 -8 -20"></a-entity>
+    
+     <!-- 터치를 위한 백그라운드 로딩 -->
+     <a-entity id="background" position="0 0 0" geometry="primitive: sphere; radius: 2.0"
+     material="color: red; side: back; shader: flat" scale="0.001 0.001 0.001" visible="false" class="raycastable">
+   </a-entity>
+
+   <a-camera id="camera">
+     <!-- WASD 버튼 -->
+   <a-entity id="totalPanel" position="-3 0 0" >
+     <a-entity id="wasdPanel" position="4 -2.4 0" class="raycastable">
+       <a-plane overlay id="panel" position="1.5 0.1 -10" rotation="0 0 0" width="3.2" height="2.3"
+         material="color: black; transparent: false; alphaTest: 0.5; opacity: 1" class="raycastable"></a-plane>
+       <a-plane overlay id="panelBackground" position="1.5 0.1 -10.01" rotation="0 0 0" width="3.2" height="2.2"
+         material="color: Black; transparent: false; alphaTest: 0.5; opacity: 0.99" class="raycastable"></a-plane>          
+       <!-- w 버튼 -->
+       <a-box overlay position="1 0 -10" rotation="0 0 0" id="wbtn" wcomponent
+       material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+       animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+       animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+       class="raycastable">
+       <a-image overlay src="#wbtnimg" width="0.5" height="0.5" position="0 0 0.03"></a-image>
+       </a-box>
+       <!-- s 버튼 -->
+       <a-box overlay position="1 -0.7 -10" rotation="0 0 0" id="sbtn" scomponent
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay src="#sbtnimg" width="0.5" height="0.5" position="0 0 0.03"></a-image>
+       </a-box>
+       <!-- a 버튼 -->
+       <a-box overlay position="0.3 -0.7 -10" rotation="0 0 0" id="abtn" acomponent
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay src="#abtnimg" width="0.5" height="0.5" position="0 0 0.03"></a-image>
+       </a-box>
+       <!-- d 버튼 -->
+       <a-box overlay position="1.7 -0.7 -10" rotation="0 0 0" id="dbtn" dcomponent
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay src="#dbtnimg" width="0.5" height="0.5" position="0 0 0.03"></a-image>
+       </a-box>
+       <!-- up 버튼 -->
+       <a-box overlay position="2.6 0.1 -10" rotation="0 0 0" id="upbtn" upcomponent
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay src="#upimg" width="0.5" height="0.5" position="0 0 0.03"></a-image>
+       </a-box>
+       <!-- down 버튼 -->
+       <a-box overlay position="2.6 -0.7 -10" rotation="0 0 0" id="dnbtn" dncomponent
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay src="#downimg" width="0.5" height="0.5" position="0 0 0.03"></a-image>
+       </a-box></a-entity>
+     <!-- 기타 버튼 -->
+     <a-entity id="etcPanel" position="7.5 -1 0" class="raycastable">
+       <!-- 플레이 버튼 -->
+       <a-entity>
+         <a-box overlay position="-2.5 -0.6 -10" rotation="0 0 0" id="playbtn" play
+           material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+           animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+           animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+           class="raycastable">
+           <a-image overlay id="playimg" src="#play" width="0.5" height="0.5" position="0 0 0.03" opacity="1"></a-image>
+         </a-box>
+       </a-entity>
+       <!-- 일시정지 버튼 -->
+       <a-box overlay visible="false" position="-2.5 -0.6 -10" rotation="0 0 0" id="pausebtn"
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay id="pauseimg" src="#pause" width="0.5" height="0.5" position="0 0 0.03" opacity="1"></a-image>
+       </a-box>
+       <!-- 되감기 버튼 -->
+       <a-box overlay position="-1.8 -0.6 -10" rotation="0 0 0" id="rewindbtn" rewind
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay src="#replay" width="0.5" height="0.5" position="0 0 0.03"></a-image>
+       </a-box>
+       <!-- 정보 on 버튼 -->
+       <a-box overlay position="-3.2 -0.6 -10" rotation="0 0 0" id="onbtn" show-info
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay id="visibleimg" src="#visible" width="0.5" height="0.5" position="-0.05 0.05 0.05" opacity="1">
+         </a-image>
+       </a-box>
+       <!-- 정보 off 버튼 -->
+       <a-box overlay position="-3.2 -0.6 -10" rotation="0 0 0" id="offbtn" visible="false" show-info
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay id="invisibleimg" src="#invisible" width="0.5" height="0.5" position="-0.05 0.05 0.05"
+           opacity="1"></a-image>
+       </a-box>
+       <!-- 나가기 버튼 -->
+       <a-box overlay position="-0.9 -0.6 -10" rotation="0 0 0" id="exitbtn" exit
+         material="color: white; transparent: true; alphaTest: 0.5; opacity:0.6" width="0.5" height="0.5" depth="0.2"
+         animation__mouseenter="property: components.material.material.opacity; to: 1; startEvents: mouseenter; dur: 500"
+         animation__mouseleave="property: components.material.material.opacity; to: 0.6; startEvents: mouseleave; dur: 500"
+         class="raycastable">
+         <a-image overlay src="#exitimg" width="0.4" height="0.4" position="0 0 0.03"></a-image>
+       </a-box>
+     </a-entity>
+   </a-entity>
+
+     <!-- 금액 및 날짜 정보확인 패널 -->
+     <a-entity id="infoPanel" position="-1 -2 0">
+       <!-- cost 프로그래스 바 -->
+       <a-entity id="cost_progress_panel" position="0.9 -2 -10" rotation="0 0 0" visible="true" show-info>
+         <a-entity id="cost_progress_bar">
+           <a-box overlay material="color: white; transparent: true; alphaTest: 0.5; opacity:1"
+             width="8.5" height="0.5" depth="0.05"></a-box>
+             <a-box id="cost_percentage_bar" overlay material="color: Khaki; transparent: true; alphaTest: 0.5; opacity:1; depthTest:false"
+             width="0" height="0.5" depth="0.1"></a-box>
+         </a-entity>
+         <a-entity id="cost_progress_point">
+           <a-box overlay position="-4.2 0 0.01" material="color: Gold; transparent: true; alphaTest: 0.5; opacity:1; depthTest:false"
+             width="0.5" height="0.5" depth="0.2"></a-box>
+           <a-entity id="cost_percentage_txt" overlay_text position="-2.2 0 0.1" negate="false" text="width:4.5; color:black; value:0%"></a-entity>
+         </a-entity>
+       </a-entity>
+       <!-- cost 텍스트 -->
+       <a-entity id="cost_text" position="2.2 0 0">
+         <a-text overlay_text value="금액" font="/img/guemaek-msdf.json" color="black" negate="false"
+           position="-6.6 -1.9 -10" width="15" height="15" rotation="0 0 0">
+         </a-text>
+         <a-text overlay_text value="현재 금액" font="/img/nowCost-msdf.json" color="black" negate="false"
+           position="-5.6 -1.4 -10" width="10" height="10" rotation="0 0 0">
+         </a-text>
+         <a-text update-cost overlay_text font="dejavu" id="currentCost" value="click to see" color="black" negate="false"
+           position="-4.1 -1.4 -10"  width="8" height="8" rotation="0 0 0">
+         </a-text>
+         <a-text overlay_text value="누적 금액" font="/img/currentCost-msdf.json" color="black" negate="false"
+           position="-5.6 -2.6 -10" width="10" height="10" rotation="0 0 0">
+         </a-text>
+         <a-text update-cost overlay_text font="dejavu" id="id_cost" value="123" color="black" negate="false"
+           position="-4.1 -2.6 -10" width="8" height="8" rotation="0 0 0">
+         </a-text>
+         <a-text overlay_text value="전체 예산" font="/img/totalCost-msdf.json" color="black" negate="false"
+           position="-1.1 -2.6 -10" width="10" height="10" rotation="0 0 0">
+         </a-text>
+         <a-text update-cost overlay_text font="dejavu" id="allCost" value="123" color="black" negate="false"
+           position="0.3 -2.6 -10"  width="8" height="8" rotation="0 0 0">
+         </a-text>
+         <a-entity overlay_text color="black" position="3.6 -2.6 -10" text="width: 10; value:/;color: black;" rotation="0 0 0"></a-entity>
+         </a-entity>
+
+       <!-- date 프로그래스 바 -->
+         <a-entity id="progress_panel" position="0.9 -3.7 -10" rotation="0 0 0" visible="true" show-info>
+           <a-entity id="progress_bar">
+             <a-box overlay material="color: white; transparent: true; alphaTest: 0.5; opacity:1; depthTest:false"
+               width="8.5" height="0.5" depth="0.05"></a-box>
+               <a-box id="percentage_bar" overlay material="color: Coral; transparent: true; alphaTest: 0.5; opacity:1; depthTest:false"
+               width="0" height="0.5" depth="0.1"></a-box>
+           </a-entity>
+           <a-entity id="progress_point">
+             <a-box overlay position="-4.2 0 0.01" material="color: tomato; transparent: true; alphaTest: 0.5; opacity:1"
+               width="0.5" height="0.5" depth="0.2"></a-box>
+             <a-entity overlay_text id="date_percentage_txt" position="-2.2 0 0.1" negate="false" text="width:4.5; color:black; value:0%"></a-entity>
+           </a-entity>
+         </a-entity>
+       <!-- 현재 날짜 텍스트 -->
+       <a-entity id="date_text" position="2.1 -0.4 0">
+         <a-text overlay_text value="날짜" font="/img/nalzza-msdf.json" color="black" negate="false"
+           position="-6.5 -3.3 -10" width="15" height="15" rotation="0 0 0">
+         </a-text>
+         <a-text overlay_text value="현재 날짜" font="/img/currentDate-msdf.json" color="black" negate="false"
+           position="-5.5 -2.7 -10" width="10" height="10" rotation="0 0 0">
+         </a-text>
+         <a-text update-date overlay_text font="dejavu" id="buildingDate" value="click to see" color="black" negate="false"
+           position="-4 -2.7 -10" width="8" height="8" rotation="0 0 0">
+         </a-text>
+         <a-text overlay_text value="시공 날짜" font="/img/date-msdf.json" color="black" negate="false"
+           position="-5.5 -3.8 -10" width="10" height="10" rotation="0 0 0">
+         </a-text>
+         <a-text update-date overlay_text font="dejavu" id="id_date" value="123" color="black" negate="false"
+           position="-4 -3.8 -10" width="8" height="8" rotation="0 0 0">
+         </a-text>
+         <a-text overlay_text value="완공 날짜" font="/img/lastDate-msdf.json" color="black" negate="false"
+           position="-1.1 -3.8 -10" width="10" height="10" rotation="0 0 0">
+         </a-text>
+         <a-text update-date overlay_text font="dejavu" id="lastDate" value="123" color="black" negate="false"
+           position="0.4 -3.8 -10" width="8" height="8" rotation="0 0 0">
+         </a-text>
+         <a-entity overlay_text color="black" position="3.5 -3.8 -10" text="width: 10; value:/;color: black;" rotation="0 0 0"></a-entity>
+       </a-entity>
+     </a-entity>
+
+     <!-- 클릭시 내용보여주는 패널 -->
+     <a-entity id="prpsetInfo" visible="false">
+       <a-plane overlay height="1.5" width="5.6" position="0.14 1.5 -10.1" color="black" opacity="0.99"></a-plane>
+       <a-plane overlay height="1.5" width="5.6" position="0.14 1.5 -10" color="black" opacity="1"></a-plane>
+       <a-entity overlay_text color="white" position="0 2 -10"
+         text="width: 5; font: https://raw.githubusercontent.com/myso-kr/aframe-fonts-korean/master/fonts/ofl/nanumgothic/NanumGothic-Regular.json; value: 시공 날짜: ; shader: msdf">
+       </a-entity>
+       <a-text overlay_text font="dejavu" id="date_info" value="123" color="white" negate="false" position="-1.5 2 -10"
+         width="5" height="5">
+       </a-text>
+       <a-entity overlay_text color="white" position="0 1.7 -10"
+         text="width: 5; font: https://raw.githubusercontent.com/myso-kr/aframe-fonts-korean/master/fonts/ofl/nanumgothic/NanumGothic-Regular.json; value: 측정 금액: ; shader: msdf">
+       </a-entity>
+       <a-text overlay_text font="dejavu" id="cost_info" value="123" color="white" negate="false"
+         position="-1.5 1.7 -10" width="5" height="5">
+       </a-text>
+       <a-entity overlay_text id="prpsetInfoTxt" color="white" position="0 1.2 -10"
+         text="width: 5; font: https://raw.githubusercontent.com/myso-kr/aframe-fonts-korean/master/fonts/ofl/nanumgothic/NanumGothic-Regular.json; value: 길경민: ; shader: msdf">
+       </a-entity>
+     </a-entity>
+   </a-camera>
+
+   <!-- Hand controls -->
+   <a-entity cursor cursor_click raycaster="objects: .raycastable"></a-entity>
+   <a-entity id="leftHand" cursor_click laser-controls="hand: left" raycaster="objects: .raycastable"></a-entity>
+   <a-entity id="rightHand" cursor_click laser-controls="hand: right" raycaster="objects: .raycastable"></a-entity>
+
+ </a-scene>
+</body>
+
+</html>
+
+<script>
+
+  // Sets up the scene
+  let scene = $("#a_world")[0].object3D;
+
+  //Sets up the IFC loading
+  const ifcModels = [];
+  const ifcLoader = new IFCLoader();
+  const taskScheduler = new TaskScheduler();
+
+  ifcLoader.ifcManager.setWasmPath("../../../");
+  ifcLoader.load("/ifc/Seosan_ifc2x3.ifc", async (ifcModel) => {
+    ifcModels.push(ifcModel);
+    await loadFloors();
+  });
+
+  async function collectNodes(node, map, stMap) {
+    if (node.expressID == null)
+      return;
+    try {
+      let props = await ifcLoader.ifcManager.getItemProperties(0, node.expressID);
+      let type = await ifcLoader.ifcManager.getIfcType(0, node.expressID);
+      let guid = props["GlobalId"]?.value;
+      if (guid != null && type !="IFCSPACE") {
+        map.set(guid, node);
+      }
+      if(type == "IFCSTAIR")
+      {
+        stMap.set(node.expressID, node);
+      }
+    }
+    catch {
+      return;
+    }
+    if (node.children != null) {
+      for (let ch of node.children) {
+        await collectNodes(ch, map, stMap);
+      }
+    }
+  }
+
+  var stMap = new Map();
+
+  async function loadFloors() {
+    let ifcProject = await ifcLoader.ifcManager.getSpatialStructure(0);
+    var map = new Map();
+    await collectNodes(ifcProject.children[0].children[0], map, stMap);
+
+    $.getJSON("/json/5DSim_SS.json", (data) => {
+      taskScheduler.map = map;
+      taskScheduler.load(data);
+    });
+  }
+
+</script>

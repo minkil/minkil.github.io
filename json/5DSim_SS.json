@@ -1,0 +1,2035 @@
+{
+  "1F.L": {
+    "SWall": {
+      "sdate": "2023-09-05T00:00:00",
+      "edate": "2023-09-13T00:00:00",
+      "elements": [
+        {
+          "guid": "1lyGFYTqfA69jmnFBjyxi8",
+          "cost": 0.0
+        },
+        {
+          "guid": "0TJjNXAxnB7x$bsLkpXfn0",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUM",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUK",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUI",
+          "cost": 0.0
+        },
+        {
+          "guid": "27dxiTeFP3lQ4flXcBHZ2K",
+          "cost": 450011.2495481986
+        },
+        {
+          "guid": "0G12n5lbj5ogWPfRvRvXwT",
+          "cost": 0.0
+        },
+        {
+          "guid": "2QJ37dcKn82Opl7mGTDv4t",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6NvJD",
+          "cost": 0.0
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFZqZ",
+          "cost": 29029.455745652231
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFZnM",
+          "cost": 153754.67252673517
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFZxq",
+          "cost": 28805.693245651702
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFYmR",
+          "cost": 65972.64375
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFYp0",
+          "cost": 45572.962561543638
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFYd3",
+          "cost": 27000.674972893314
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFYWx",
+          "cost": 3953.1375000000658
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFYeN",
+          "cost": 27000.674972893314
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFbMq",
+          "cost": 33101.932148095148
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFbJW",
+          "cost": 42753.555005681912
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFbVa",
+          "cost": 28805.693245653289
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFb5c",
+          "cost": 185156.01002674841
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFb02",
+          "cost": 28805.693245653922
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFb2e",
+          "cost": 44842.005015367678
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFbD8",
+          "cost": 130065.68220963617
+        },
+        {
+          "guid": "15087VX0LD29N28HbUFbmd",
+          "cost": 72633.307505686549
+        },
+        {
+          "guid": "3wqnvyrt92z8DwEoNdcVef",
+          "cost": 66270.99375
+        }
+      ]
+    },
+    "SStair": {
+      "sdate": "2023-09-05T00:00:00",
+      "edate": "2023-09-13T00:00:00",
+      "elements": [
+        {
+          "guid": "2oRFYadhD0x8M8aqLdGjQC",
+          "cost": 543294.42360219266
+        }
+      ]
+    },
+    "SColumn": {
+      "sdate": "2023-10-05T00:00:00",
+      "edate": "2023-10-13T00:00:00",
+      "elements": [
+        {
+          "guid": "3dJWfJc2f8xfWDxV1zE2qp",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDxV1zE1df",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDxV1zE1d_",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDxV1zE1dQ",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE09L",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "204lZ8zAn3HAsi8AdVQKfU",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "2qk2YaRtjFZfMzAhatUYlZ",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUYfa",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUYMR",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUYM8",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUYNT",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUYNE",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TE30h",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TE30b",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TE30Y",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TE30Z",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TE31G",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TE31H",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE314",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE315",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE312",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE313",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE310",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE311",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31_",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31$",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31y",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31z",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TDtSq",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TDtSr",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TDtSo",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TDtSp",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TDtSm",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemyrm7TDtSn",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTH",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTE",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTF",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTC",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTD",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTA",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTB",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT8",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT9",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT6",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT7",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT4",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT5",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT2",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT3",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT0",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT1",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT_",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtT$",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTy",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTz",
+          "cost": 4067.0381052382504
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGrJelYdDs",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGrJelYdDt",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGrJelYdDq",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGrJelYdDr",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGrJelYdDo",
+          "cost": 12759.335232119929
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGrJelYdDp",
+          "cost": 12759.335232119929
+        }
+      ]
+    },
+    "SBeam": {
+      "sdate": "2023-10-05T00:00:00",
+      "edate": "2023-10-13T00:00:00",
+      "elements": [
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0C$",
+          "cost": 54743.304023686629
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE03$",
+          "cost": 26799.920377131162
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE07O",
+          "cost": 54725.437410101877
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE040",
+          "cost": 26799.920377131162
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUYR5",
+          "cost": 26817.786990715918
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUY4B",
+          "cost": 26817.786990715918
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUXIv",
+          "cost": 11430.237812106861
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE30W",
+          "cost": 54698.637489724744
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31U",
+          "cost": 54707.570796517124
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31V",
+          "cost": 20269.951336296581
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31E",
+          "cost": 26782.05376354641
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31F",
+          "cost": 26799.920377131162
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSe",
+          "cost": 16464.084418350925
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSc",
+          "cost": 53590.907447469952
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSd",
+          "cost": 53599.840754262324
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSa",
+          "cost": 22304.381263680883
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSb",
+          "cost": 22344.934684160307
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSY",
+          "cost": 35254.440203442253
+        }
+      ]
+    },
+    "SSlab": {
+      "sdate": "2023-10-14T00:00:00",
+      "edate": "2023-10-24T00:00:00",
+      "elements": [
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0N2",
+          "cost": 181182.75881361926
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31M",
+          "cost": 194004.92303773802
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSX",
+          "cost": 257655.0932411449
+        },
+        {
+          "guid": "27dxiTeFP3lQ4flXcBHXxz",
+          "cost": 71708.422732328472
+        },
+        {
+          "guid": "0y7EO1pVzCRub2p7e0phOy",
+          "cost": 0.0
+        },
+        {
+          "guid": "0cH28I$G50dAPVAEb7kn5L",
+          "cost": 0.0
+        },
+        {
+          "guid": "0cH28I$G50dAPVAEb7knkC",
+          "cost": 0.0
+        },
+        {
+          "guid": "0cH28I$G50dAPVAEb7knka",
+          "cost": 0.0
+        },
+        {
+          "guid": "1vvir5DFjCrBdTW$tyr1_D",
+          "cost": 0.0
+        },
+        {
+          "guid": "1vvir5DFjCrBdTW$tyr1_M",
+          "cost": 0.0
+        },
+        {
+          "guid": "2acEZDw$rD19KXJAmj6sin",
+          "cost": 0.0
+        },
+        {
+          "guid": "2acEZDw$rD19KXJAmj6sjN",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AWindow": {
+      "sdate": "2024-05-03T00:00:00",
+      "edate": "2024-05-16T00:00:00",
+      "elements": [
+        {
+          "guid": "0TJjNXAxnB7x$bsLkpXf6g",
+          "cost": 57418.40592
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31f",
+          "cost": 401928.84144
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUF",
+          "cost": 2772446.1113948724
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUC",
+          "cost": 2772446.1113948724
+        },
+        {
+          "guid": "2QJ37dcKn82Opl7mGTDv4v",
+          "cost": 43063.80444
+        },
+        {
+          "guid": "2QJ37dcKn82Opl7mGTDv4u",
+          "cost": 43063.80444
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6NvJC",
+          "cost": 4500694.8077594591
+        }
+      ]
+    },
+    "ADoor": {
+      "sdate": "2024-08-02T00:00:00",
+      "edate": "2024-08-09T00:00:00",
+      "elements": [
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zED4G",
+          "cost": 667246.57919525658
+        },
+        {
+          "guid": "0TJjNXAxnB7x$bsLkpXf2F",
+          "cost": 589002.9453
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUG",
+          "cost": 581927.1733302566
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUH",
+          "cost": 667246.57919525658
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUE",
+          "cost": 667246.57919525658
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUy",
+          "cost": 553487.37137525657
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtVV",
+          "cost": 679987.61047109659
+        },
+        {
+          "guid": "0t3errtPHAtOM23Bq$zbZ6",
+          "cost": 453101.19042960863
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6NvJY",
+          "cost": 654447.71700000006
+        }
+      ]
+    },
+    "ACovering": {
+      "sdate": "2024-07-12T00:00:00",
+      "edate": "2024-07-27T00:00:00",
+      "elements": [
+        {
+          "guid": "204lZ8zAn3HAsiAAlVQKlT",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE32C",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUx",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AWall": {
+      "sdate": "2024-07-16T00:00:00",
+      "edate": "2024-07-23T00:00:00",
+      "elements": [
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0yW",
+          "cost": 0.0
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0ou",
+          "cost": 0.0
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0mB",
+          "cost": 0.0
+        },
+        {
+          "guid": "1lyGFYTqfA69jmnFBjyxfa",
+          "cost": 0.0
+        },
+        {
+          "guid": "0TJjNXAxnB7x$bsLkpXf_0",
+          "cost": 0.0
+        },
+        {
+          "guid": "05IFvjTN5DC85I9BgDPFEs",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31w",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31x",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31u",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31v",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE32J",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE32z",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE32x",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUQ",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUR",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUO",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUP",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUN",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUL",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtUJ",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtVS",
+          "cost": 0.0
+        },
+        {
+          "guid": "3dBbDAsULFvgKRTY2teeX6",
+          "cost": 0.0
+        },
+        {
+          "guid": "3spGOTDbf5fOPaSmrpknUR",
+          "cost": 0.0
+        },
+        {
+          "guid": "3spGOTDbf5fOPaSmrpkmZ5",
+          "cost": 0.0
+        },
+        {
+          "guid": "1M3TgLSFH6hQE6XsPLCX9T",
+          "cost": 0.0
+        },
+        {
+          "guid": "0t3errtPHAtOM21Bm$zak_",
+          "cost": 0.0
+        },
+        {
+          "guid": "0t3errtPHAtOM21Bm$zdGR",
+          "cost": 0.0
+        },
+        {
+          "guid": "0G12n5lbj5ogWPfRvRvWx_",
+          "cost": 0.0
+        },
+        {
+          "guid": "3rmEnGRbjCAxqGXB9GsIaj",
+          "cost": 0.0
+        },
+        {
+          "guid": "3rmEnGRbjCAxqGXB9GsIbh",
+          "cost": 0.0
+        },
+        {
+          "guid": "3rmEnGRbjCAxqGXB9GsIxc",
+          "cost": 0.0
+        },
+        {
+          "guid": "3rmEnGRbjCAxqGXB9GsIuM",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6NuEN",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6NuCR",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6NuJw",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6NvJF",
+          "cost": 0.0
+        },
+        {
+          "guid": "14Rr9aQ2zAJgv2ype07bdR",
+          "cost": 0.0
+        },
+        {
+          "guid": "14Rr9aQ2zAJgv2ype07bQO",
+          "cost": 0.0
+        },
+        {
+          "guid": "14Rr9aQ2zAJgv2ype07bKK",
+          "cost": 0.0
+        },
+        {
+          "guid": "2SHndS0XP00BkSumgnNvTa",
+          "cost": 0.0
+        },
+        {
+          "guid": "3AKxF5x1nFVAcG4JL1LJ0D",
+          "cost": 0.0
+        }
+      ]
+    },
+    "ASlab": {
+      "sdate": "2024-07-23T00:00:00",
+      "edate": "2024-08-02T00:00:00",
+      "elements": [
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zEtSN",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31W",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtTT",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AFurniture": {
+      "sdate": "2024-08-02T00:00:00",
+      "edate": "2024-08-09T00:00:00",
+      "elements": [
+        {
+          "guid": "0UA2EkE4b1vOz$M4Sg9UY3",
+          "cost": 0
+        },
+        {
+          "guid": "2mapGbjer9yRxVWcxkF8LA",
+          "cost": 0
+        },
+        {
+          "guid": "0G98Hxewb8OQ8f3kIn6vxT",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdcPDH",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdcOqs",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdcODx",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdcVmL",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdcVmT",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdcVpb",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbi1v",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbIwA",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbI$P",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdcC4d",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbpyx",
+          "cost": 0
+        },
+        {
+          "guid": "1hLOk$5U95YRBL_qWTnRBd",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdcAUU",
+          "cost": 0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31c",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdc9h3",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdc9DN",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdc8jD",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbpnL",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbpnM",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbI79",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbHwL",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbHwN",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbHwO",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbHwP",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbI3W",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbHqE",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbIgi",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbIXl",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbIXm",
+          "cost": 0
+        }
+      ]
+    },
+    "ARailing": {
+      "sdate": "2024-08-02T00:00:00",
+      "edate": "2024-08-09T00:00:00",
+      "elements": []
+    },
+    "ARoof": {
+      "sdate": "2024-08-02T00:00:00",
+      "edate": "2024-08-09T00:00:00",
+      "elements": []
+    }
+  },
+  "1T.L": {
+    "SWall": {
+      "sdate": "2023-09-25T00:00:00",
+      "edate": "2023-10-03T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDrxJ",
+          "cost": 0.0
+        },
+        {
+          "guid": "3wN7YM$Jv0EPrn42x$nuxV",
+          "cost": 0.0
+        },
+        {
+          "guid": "3wN7YM$Jv0EPrn42x$nv4j",
+          "cost": 0.0
+        },
+        {
+          "guid": "3wN7YM$Jv0EPrn42x$nv6l",
+          "cost": 0.0
+        },
+        {
+          "guid": "3wN7YM$Jv0EPrn42x$nv1_",
+          "cost": 0.0
+        },
+        {
+          "guid": "3wN7YM$Jv0EPrn42x$nv38",
+          "cost": 0.0
+        },
+        {
+          "guid": "1vvir5DFjCrBdTW$tyr1u6",
+          "cost": 0.0
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFbcB",
+          "cost": 45795.23285429641
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFbiL",
+          "cost": 60012.667709501562
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFblo",
+          "cost": 46159.046246806269
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFaVz",
+          "cost": 58420.556009065083
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFaFi",
+          "cost": 7110.6749945433439
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFa93",
+          "cost": 9529.796374275471
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFaBF",
+          "cost": 31456.035004458077
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFaqe",
+          "cost": 9529.7963742756365
+        },
+        {
+          "guid": "15087VX0LD29N2AHjUFas3",
+          "cost": 7458.75004969049
+        },
+        {
+          "guid": "1PeNyajODCChoWX9QxkxEj",
+          "cost": 25961.422504456023
+        },
+        {
+          "guid": "1PeNyajODCChoWX9QxkxC1",
+          "cost": 9529.79637427567
+        },
+        {
+          "guid": "1PeNyajODCChoWX9Qxkx8g",
+          "cost": 25924.128754455756
+        },
+        {
+          "guid": "1PeNyajODCChoWX9Qxkx9V",
+          "cost": 9492.5026242756685
+        },
+        {
+          "guid": "1IguGga79BKg$U7CNFpjqj",
+          "cost": 0.0
+        },
+        {
+          "guid": "1IguGga79BKg$U7CNFpjqY",
+          "cost": 0.0
+        },
+        {
+          "guid": "1IguGga79BKg$U7CNFpjqZ",
+          "cost": 0.0
+        },
+        {
+          "guid": "1IguGga79BKg$U7CNFpjqW",
+          "cost": 0.0
+        }
+      ]
+    },
+    "SStair": {
+      "sdate": "2023-09-25T00:00:00",
+      "edate": "2023-10-03T00:00:00",
+      "elements": []
+    },
+    "SColumn": {
+      "sdate": "2023-10-25T00:00:00",
+      "edate": "2023-11-02T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDrhR",
+          "cost": 4891.0785056459817
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhO",
+          "cost": 14247.924342533912
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhP",
+          "cost": 14247.924342533912
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhM",
+          "cost": 14247.924342533912
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhN",
+          "cost": 4891.0785056459817
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhK",
+          "cost": 4891.0785056459817
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhB",
+          "cost": 4864.49655724575
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh8",
+          "cost": 3907.54641483675
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh9",
+          "cost": 1515.1710588142482
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh6",
+          "cost": 1355.6793684127483
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh7",
+          "cost": 1355.6793684127483
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh4",
+          "cost": 1515.1710588142482
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh5",
+          "cost": 2073.3919752195
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh2",
+          "cost": 5023.9882476472494
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh3",
+          "cost": 3783.4973223022503
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh0",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh1",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh_",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrh$",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhy",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhz",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhw",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhx",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhu",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhv",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhs",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrht",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhq",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhr",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrho",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhp",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhm",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhn",
+          "cost": 868.3436477415
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhk",
+          "cost": 868.3436477415
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhl",
+          "cost": 1674.66274921575
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhi",
+          "cost": 2170.85911935375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhj",
+          "cost": 2667.05548949175
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhg",
+          "cost": 3039.2027670952502
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwp",
+          "cost": 4891.0785056459817
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwm",
+          "cost": 14247.924342533912
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwn",
+          "cost": 14247.924342533912
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwk",
+          "cost": 14247.924342533912
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwl",
+          "cost": 4891.0785056459817
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwi",
+          "cost": 4891.0785056459817
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxQ",
+          "cost": 1435.4252136134983
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxR",
+          "cost": 1515.1710588142482
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxO",
+          "cost": 5023.9882476472494
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxP",
+          "cost": 4705.00486684425
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxM",
+          "cost": 3987.2922600375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxN",
+          "cost": 1515.1710588142482
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxK",
+          "cost": 1435.4252136134983
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxF",
+          "cost": 3597.4236835005004
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxC",
+          "cost": 3101.2273133625004
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxD",
+          "cost": 2605.0309432245
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxA",
+          "cost": 2170.85911935375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxB",
+          "cost": 1612.6382029485
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx8",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx9",
+          "cost": 992.392740276
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx6",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx7",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx4",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx5",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx2",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx3",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx0",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx1",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx_",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrx$",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxy",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxz",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxw",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxx",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxu",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxv",
+          "cost": 930.36819400875
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxs",
+          "cost": 1116.4418328105003
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxt",
+          "cost": 1612.6382029485
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxq",
+          "cost": 2170.85911935375
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxr",
+          "cost": 2667.05548949175
+        }
+      ]
+    },
+    "SBeam": {
+      "sdate": "2023-10-25T00:00:00",
+      "edate": "2023-11-02T00:00:00",
+      "elements": [
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0JJ",
+          "cost": 41398.283406074246
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0JT",
+          "cost": 20276.710239709813
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0JV",
+          "cost": 41398.283406074246
+        },
+        {
+          "guid": "3dJWfJc2f8xfWDvV9zE0JP",
+          "cost": 20276.710239709813
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUY03",
+          "cost": 20276.710239709813
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUY8A",
+          "cost": 20283.469143123053
+        },
+        {
+          "guid": "2qk2YaRtjFZfMz8hitUY88",
+          "cost": 20290.228046536293
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE30X",
+          "cost": 20276.710239709813
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31S",
+          "cost": 41391.524502661188
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31T",
+          "cost": 20269.951336296581
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31Q",
+          "cost": 41391.524502661188
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31R",
+          "cost": 20269.951336296581
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31C",
+          "cost": 20269.951336296581
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31D",
+          "cost": 20269.951336296581
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31A",
+          "cost": 20269.951336296581
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTE31B",
+          "cost": 20276.710239709813
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtS_",
+          "cost": 16464.084418350925
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSk",
+          "cost": 53590.907447469952
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSl",
+          "cost": 53590.907447469952
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSi",
+          "cost": 53599.840754262324
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSj",
+          "cost": 22297.622360267651
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSg",
+          "cost": 22344.934684160307
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDtSh",
+          "cost": 35240.922396615781
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhL",
+          "cost": 54725.437410101877
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhI",
+          "cost": 26808.853683923546
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhJ",
+          "cost": 54725.437410101877
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhG",
+          "cost": 26808.853683923546
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhH",
+          "cost": 20283.469143123053
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhE",
+          "cost": 20290.228046536293
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhF",
+          "cost": 20276.710147551617
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwj",
+          "cost": 54725.437410101877
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwg",
+          "cost": 26799.920377131162
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwh",
+          "cost": 54725.437410101877
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwe",
+          "cost": 26808.853683923546
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwf",
+          "cost": 20283.469143123053
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwc",
+          "cost": 20283.469143123053
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwd",
+          "cost": 20276.710147551617
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYcsm",
+          "cost": 32740.569394061928
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYcsn",
+          "cost": 53903.573185203168
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYcs_",
+          "cost": 22061.060740804354
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYcs$",
+          "cost": 22101.614161283778
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYcsy",
+          "cost": 34585.3087655318
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdDf",
+          "cost": 1152.3965762166411
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdDm",
+          "cost": 53590.907447469952
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdDn",
+          "cost": 33714.299834431062
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdD_",
+          "cost": 53590.907447469952
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdD$",
+          "cost": 22304.381263680883
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdDy",
+          "cost": 22344.934684160307
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdDz",
+          "cost": 35227.404589789308
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdOT",
+          "cost": 19769.792483717047
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdOQ",
+          "cost": 20276.710147551617
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdOR",
+          "cost": 20276.710147551617
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdp9",
+          "cost": 19735.997966650866
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpN",
+          "cost": 20418.64721138779
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpK",
+          "cost": 19769.792483717047
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpL",
+          "cost": 17920.213425508435
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpI",
+          "cost": 53805.306810487011
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpJ",
+          "cost": 54930.903466326556
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpG",
+          "cost": 54046.506093881195
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpH",
+          "cost": 21574.419695051303
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpU",
+          "cost": 21851.534734994009
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdpV",
+          "cost": 34652.89779966417
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdmZ",
+          "cost": 20276.710147551617
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdmW",
+          "cost": 20276.710147551617
+        }
+      ]
+    },
+    "SSlab": {
+      "sdate": "2023-11-03T00:00:00",
+      "edate": "2023-11-11T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDrgX",
+          "cost": 75176.871561315827
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrwE",
+          "cost": 1994492.5416435604
+        },
+        {
+          "guid": "0G12n5lbj5ogWPfRvRvWLG",
+          "cost": 0.0
+        },
+        {
+          "guid": "0G12n5lbj5ogWPfRvRvWKu",
+          "cost": 0.0
+        },
+        {
+          "guid": "3AKxF5x1nFVAcG6JH1LJHh",
+          "cost": 0.0
+        },
+        {
+          "guid": "3AKxF5x1nFVAcG6JH1LJI4",
+          "cost": 0.0
+        },
+        {
+          "guid": "1IguGga79BKg$U7CNFpjpW",
+          "cost": 10049492.596888212
+        },
+        {
+          "guid": "1IguGga79BKg$U7CNFpjq2",
+          "cost": 12197026.310317654
+        }
+      ]
+    },
+    "AWindow": {
+      "sdate": "2024-05-17T00:00:00",
+      "edate": "2024-05-30T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDrxo",
+          "cost": 129191.41332
+        },
+        {
+          "guid": "1vvir5DFjCrBdTW$tyr1u5",
+          "cost": 916280.0414516998
+        }
+      ]
+    },
+    "ADoor": {
+      "sdate": "2024-08-30T00:00:00",
+      "edate": "2024-09-06T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDriL",
+          "cost": 392668.6302
+        }
+      ]
+    },
+    "ACovering": {
+      "sdate": "2024-08-09T00:00:00",
+      "edate": "2024-08-24T00:00:00",
+      "elements": [
+        {
+          "guid": "15NYWIWRj1lOx0qX_txY10",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AWall": {
+      "sdate": "2024-08-13T00:00:00",
+      "edate": "2024-08-20T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDrhC",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhD",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhA",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhh",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrhe",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDriy",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDriz",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxU",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxV",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxS",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxT",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxL",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxI",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrxk",
+          "cost": 0.0
+        },
+        {
+          "guid": "0$GFHp56nAzuQcIoFmSzCc",
+          "cost": 0.0
+        },
+        {
+          "guid": "0$GFHp56nAzuQcIoFmSz1i",
+          "cost": 0.0
+        },
+        {
+          "guid": "0t3errtPHAtOM21By$zak_",
+          "cost": 0.0
+        },
+        {
+          "guid": "0t3errtPHAtOM21By$zdGR",
+          "cost": 0.0
+        },
+        {
+          "guid": "1vvir5DFjCrBdTW$tyr1u7",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6Nvck",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6Nvbh",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6Nvao",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6Nvhm",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6NvjJ",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6Nv$9",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6Nv2H",
+          "cost": 0.0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6Nv7Y",
+          "cost": 0.0
+        },
+        {
+          "guid": "14Rr9aQ2zAJgv2ypa07bdR",
+          "cost": 0.0
+        },
+        {
+          "guid": "14Rr9aQ2zAJgv2ypa07bQO",
+          "cost": 0.0
+        },
+        {
+          "guid": "14Rr9aQ2zAJgv2ypa07bKK",
+          "cost": 0.0
+        },
+        {
+          "guid": "2SHndS0XP00BkSumgnN_LQ",
+          "cost": 0.0
+        },
+        {
+          "guid": "3AKxF5x1nFVAcG4JP1LJ0D",
+          "cost": 0.0
+        }
+      ]
+    },
+    "ASlab": {
+      "sdate": "2024-08-20T00:00:00",
+      "edate": "2024-08-30T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDrhb",
+          "cost": 0.0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDrw7",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AFurniture": {
+      "sdate": "2024-08-30T00:00:00",
+      "edate": "2024-09-06T00:00:00",
+      "elements": [
+        {
+          "guid": "3pJel16LvDv8gnAEAaxRvx",
+          "cost": 0
+        },
+        {
+          "guid": "3pJel16LvDv8gnAEAaxRwg",
+          "cost": 0
+        },
+        {
+          "guid": "3wqnvyrt92z8DwCoVdbHVU",
+          "cost": 0
+        }
+      ]
+    },
+    "ARailing": {
+      "sdate": "2024-08-30T00:00:00",
+      "edate": "2024-09-06T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDtVD",
+          "cost": 0
+        },
+        {
+          "guid": "3v_xpStevDoemytmFTDri0",
+          "cost": 0
+        },
+        {
+          "guid": "3T$weFkjr2RBE4V3G6N7Me",
+          "cost": 0
+        },
+        {
+          "guid": "3AKxF5x1nFVAcG6JH1LIbP",
+          "cost": 0
+        },
+        {
+          "guid": "3ZcWxyKgrBF9NGtJWlYdmb",
+          "cost": 0
+        }
+      ]
+    },
+    "ARoof": {
+      "sdate": "2024-08-30T00:00:00",
+      "edate": "2024-09-06T00:00:00",
+      "elements": [
+        {
+          "guid": "3v_xpStevDoemytmFTDrwu",
+          "cost": 0
+        },
+        {
+          "guid": "0qWpAIj5z6bwLtBeUpbvNL",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qNk",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHZ",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHY",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHb",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHa",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHd",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHc",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHf",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHe",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHh",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHg",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHj",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHi",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHl",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHk",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHH",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHG",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qNP",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHJ",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHI",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHL",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHK",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHN",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHM",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHP",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHO",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHR",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHQ",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHT",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHS",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHV",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qHU",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qH1",
+          "cost": 0
+        },
+        {
+          "guid": "1cbretpN95qhAf7RRH5qH0",
+          "cost": 0
+        }
+      ]
+    }
+  }
+}

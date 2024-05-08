@@ -1,0 +1,4057 @@
+{
+  "1FL": {
+    "SWall": {
+      "sdate": "2023-09-05T00:00:00",
+      "edate": "2023-09-13T00:00:00",
+      "elements": [
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYyy",
+          "cost": 14799457.65653391
+        },
+        {
+          "guid": "1EdYkfBCDFRgf7DleLlbdV",
+          "cost": 1593929.4386424725
+        },
+        {
+          "guid": "1AAtL7RPfBUPdU6pNLHAhY",
+          "cost": 14030372.692597451
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijAKx",
+          "cost": 9458953.4495309424
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijAIo",
+          "cost": 5215921.3340199944
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijAG0",
+          "cost": 1023128.3399999933
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijAEW",
+          "cost": 492187.33199999336
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijA8F",
+          "cost": 578550.37500000664
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijBtP",
+          "cost": 0.0
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijBcJ",
+          "cost": 9692091.5054098275
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijBaK",
+          "cost": 5748149.2398393564
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijBZJ",
+          "cost": 2682424.5422999943
+        },
+        {
+          "guid": "3S9j5WuQX5iQ3xbTvkOZtm",
+          "cost": 5177099.2828326235
+        },
+        {
+          "guid": "0_xig6q1L8zwK8rULh7KB0",
+          "cost": 6768418.5940522859
+        },
+        {
+          "guid": "12UhD$qx13jvctSjO2fuY8",
+          "cost": 534328.61863500462
+        },
+        {
+          "guid": "12UhD$qx13jvctSjO2fvSc",
+          "cost": 3850558.6168299941
+        },
+        {
+          "guid": "2Jbsma1Pb4bxhSg4Z8g6VV",
+          "cost": 1339199.73398
+        }
+      ]
+    },
+    "SStair": {
+      "sdate": "2023-09-05T00:00:00",
+      "edate": "2023-09-13T00:00:00",
+      "elements": [
+        {
+          "guid": "1AAtL7RPfBUPdU6pNLHAQX",
+          "cost": 1145134.0139233081
+        }
+      ]
+    },
+    "SColumn": {
+      "sdate": "2023-10-05T00:00:00",
+      "edate": "2023-10-13T00:00:00",
+      "elements": [
+        {
+          "guid": "1YCXYclhX06upXGzIeA$Bd",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1YCXYclhX06upXGzIeA$Nr",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1YCXYclhX06upXGzIeA$Mp",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1YCXYclhX06upXGzIeA$Gr",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1YCXYclhX06upXGzIeA$UM",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0EoFCkJdH4_faEtLj46sGu",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0EoFCkJdH4_faEtLj46sVd",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0EoFCkJdH4_faEtLj46sVI",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1K$37UPdP4dBX22UNK$xWv",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "12UhD$qx13jvctSjO2fvQQ",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "12UhD$qx13jvctSjO2fvM1",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "12UhD$qx13jvctSjO2fvGf",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "12UhD$qx13jvctSjO2fvG9",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrUJ",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrUL",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrTk",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrS_",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrSK",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrXA",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrXC",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrdS",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrdU",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrcs",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrcu",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrcM",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrhF",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrf6",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrlL",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrkg",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrjl",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3n$_27zQz1OBD0A09yXrpX",
+          "cost": 39911.200606071179
+        }
+      ]
+    },
+    "SBeam": {
+      "sdate": "2023-10-05T00:00:00",
+      "edate": "2023-10-13T00:00:00",
+      "elements": []
+    },
+    "SSlab": {
+      "sdate": "2023-10-14T00:00:00",
+      "edate": "2023-10-14T00:00:00",
+      "elements": [
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYdc",
+          "cost": 0.0
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijAfc",
+          "cost": 0.0
+        },
+        {
+          "guid": "2Jbsma1Pb4bxhSg4Z8g6ag",
+          "cost": 0.0
+        }
+      ]
+    },
+    "ACurtainWall": {
+      "sdate": "2023-10-29T00:00:00",
+      "edate": "2023-11-08T00:00:00",
+      "elements": [
+        {
+          "guid": "3S9j5WuQX5iQ3xbTvkOY75",
+          "cost": 1348936.9138868998
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekCiM",
+          "cost": 627444.202355085
+        },
+        {
+          "guid": "3S9j5WuQX5iQ3xbTvkOY3B",
+          "cost": 1540093.2924761914
+        },
+        {
+          "guid": "1gPhjzf4z56BTOK$MtPbL$",
+          "cost": 720816.74112754536
+        },
+        {
+          "guid": "1gPhjzf4z56BTOK$MtPbLY",
+          "cost": 720816.74112754536
+        },
+        {
+          "guid": "3S9j5WuQX5iQ3xbTvkOY8L",
+          "cost": 1833064.7945618448
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekCiP",
+          "cost": 863914.54266915563
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekCiQ",
+          "cost": 863914.54266915843
+        }
+      ]
+    },
+    "AWindow": {
+      "sdate": "2024-05-03T00:00:00",
+      "edate": "2024-05-16T00:00:00",
+      "elements": [
+        {
+          "guid": "37hKYevhL1Eh9emJucgF0L",
+          "cost": 386781.30658800004
+        },
+        {
+          "guid": "37hKYevhL1Eh9emJucgClp",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "37hKYevhL1Eh9emJucgCjE",
+          "cost": 2616390.0
+        },
+        {
+          "guid": "37hKYevhL1Eh9emJucgChm",
+          "cost": 2616390.0
+        }
+      ]
+    },
+    "ADoor": {
+      "sdate": "2024-08-02T00:00:00",
+      "edate": "2024-08-09T00:00:00",
+      "elements": [
+        {
+          "guid": "1AAtL7RPfBUPdU6pNLHAcF",
+          "cost": 19186860.0
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijAC4",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ij8r8",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "3S9j5WuQX5iQ3xbTvkOY74",
+          "cost": 9467386.4500000011
+        },
+        {
+          "guid": "279ZKoUyLE$8OYR7gUdrAC",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "3_pm$6$XfBY8NjwIZCigHS",
+          "cost": 929680.14824084111
+        }
+      ]
+    },
+    "ACovering": {
+      "sdate": "2024-07-12T00:00:00",
+      "edate": "2024-07-27T00:00:00",
+      "elements": [
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLvd",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLrZ",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLsD",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AWall": {
+      "sdate": "2024-07-16T00:00:00",
+      "edate": "2024-07-23T00:00:00",
+      "elements": [
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijBWL",
+          "cost": 2634928.6650879886
+        },
+        {
+          "guid": "0c0H0x3IHFdxJfzY2ijBXC",
+          "cost": 5523782.0199679658
+        },
+        {
+          "guid": "2Jbsma1Pb4bxhSg4Z8g6w8",
+          "cost": 194054.30752189123
+        }
+      ]
+    },
+    "ASlab": {
+      "sdate": "2024-07-23T00:00:00",
+      "edate": "2024-08-02T00:00:00",
+      "elements": []
+    },
+    "AFurniture": {
+      "sdate": "2024-08-02T00:00:00",
+      "edate": "2024-08-09T00:00:00",
+      "elements": []
+    },
+    "ARailing": {
+      "sdate": "2024-08-02T00:00:00",
+      "edate": "2024-08-09T00:00:00",
+      "elements": [
+        {
+          "guid": "1AAtL7RPfBUPdU6pNLHAI0",
+          "cost": 0
+        }
+      ]
+    }
+  },
+  "2FL": {
+    "SWall": {
+      "sdate": "2023-09-25T00:00:00",
+      "edate": "2023-10-03T00:00:00",
+      "elements": [
+        {
+          "guid": "0_xig6q1L8zwK8rULh7Kx5",
+          "cost": 15112733.355925005
+        },
+        {
+          "guid": "0_xig6q1L8zwK8rULh7Kbv",
+          "cost": 1828533.7716000057
+        },
+        {
+          "guid": "0_xig6q1L8zwK8rULh7KX$",
+          "cost": 15604257.602965355
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajf0$",
+          "cost": 10903627.3815376
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajf2$",
+          "cost": 5414875.00854
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajf5y",
+          "cost": 1065885.6860816057
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajf7M",
+          "cost": 7092640.9955775524
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajf9j",
+          "cost": 4038523.8384018
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajf8U",
+          "cost": 0.0
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfCo",
+          "cost": 0.0
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfEz",
+          "cost": 0.0
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfuH",
+          "cost": 221287.0870008023
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfxO",
+          "cost": 764620.371945
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfzr",
+          "cost": 181180.09625580171
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfhN",
+          "cost": 7303784.8952399995
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfgP",
+          "cost": 7437901.80977535
+        },
+        {
+          "guid": "3tYUbv9bjCMxs7Jcvs$MrB",
+          "cost": 7416084.469326
+        },
+        {
+          "guid": "3tYUbv9bjCMxs7Jcvs$MtR",
+          "cost": 12957983.229622738
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwx3",
+          "cost": 7647066.2353798272
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxg",
+          "cost": 7624640.8212
+        }
+      ]
+    },
+    "SStair": {
+      "sdate": "2023-09-25T00:00:00",
+      "edate": "2023-10-03T00:00:00",
+      "elements": [
+        {
+          "guid": "0_xig6q1L8zwK8rULh7KZF",
+          "cost": 1032501.8844315556
+        }
+      ]
+    },
+    "SColumn": {
+      "sdate": "2023-10-25T00:00:00",
+      "edate": "2023-11-02T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZ5",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZ7",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZ1",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZ3",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWr",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWt",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWn",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWp",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWz",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JW$",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JXk",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JXe",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JXg",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcK",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jaj",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jal",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jaf",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jah",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwuh",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwuj",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwul",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwun",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxI",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxK",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxM",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxO",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxSJb",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxSSe",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxSP3",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxS4m",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRtI",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRrj",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRnr",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxR_2",
+          "cost": 39911.200606071179
+        }
+      ]
+    },
+    "SBeam": {
+      "sdate": "2023-10-25T00:00:00",
+      "edate": "2023-11-02T00:00:00",
+      "elements": [
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJa1M",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJaEr",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJaFh",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJaCo",
+          "cost": 5391.1700172894243
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJa8X",
+          "cost": 21258.087420568751
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJa8q",
+          "cost": 21258.087420568751
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJa8D",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJa9C",
+          "cost": 11105.980572741555
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbtO",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbq5",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbrR",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbok",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbnv",
+          "cost": 39036.448936633911
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJb_H",
+          "cost": 39036.448936633911
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJb$a",
+          "cost": 39036.448936633911
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbwu",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbxh",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbxK",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJblH",
+          "cost": 6430.2264819170805
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbiI",
+          "cost": 9905.1038390325339
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbge",
+          "cost": 24826.636019587186
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbhw",
+          "cost": 25371.71482070335
+        },
+        {
+          "guid": "0CKfUw$EvFQxVwCFUQJbea",
+          "cost": 24383.7594936803
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZD",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZF",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZ9",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZB",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWv",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWx",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWb",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWd",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWX",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWZ",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWj",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcM",
+          "cost": 15875.420082507851
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcG",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcI",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcS",
+          "cost": 17263.667654100551
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JbL",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JbN",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JbH",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JbJ",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYds",
+          "cost": 11097.463716474096
+        },
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYdq",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYdg",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYde",
+          "cost": 5544.4734301033286
+        },
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYdk",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYdi",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "0_4b5Zrgr5HxV_niAQyYdY",
+          "cost": 19525.128686381537
+        },
+        {
+          "guid": "279ZKoUyLE$8OYR7gUdrM5",
+          "cost": 23625.759285878128
+        },
+        {
+          "guid": "279ZKoUyLE$8OYR7gUdrJC",
+          "cost": 5595.5745677079685
+        },
+        {
+          "guid": "279ZKoUyLE$8OYR7gUdrGw",
+          "cost": 5595.5745677079685
+        },
+        {
+          "guid": "0mh9Nf$9v34RtzQsbYdmha",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "0mh9Nf$9v34RtzQsbYdmM1",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0mh9Nf$9v34RtzQsbYdmMq",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "0mh9Nf$9v34RtzQsbYdmMb",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0mh9Nf$9v34RtzQsbYdmGr",
+          "cost": 19497.511814123569
+        },
+        {
+          "guid": "0mh9Nf$9v34RtzQsbYdmJI",
+          "cost": 13042.067923824119
+        },
+        {
+          "guid": "0mh9Nf$9v34RtzQsbYdmJV",
+          "cost": 13042.067923824119
+        },
+        {
+          "guid": "0mh9Nf$9v34RtzQsbYdmJA",
+          "cost": 13042.067923824119
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwup",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwur",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwut",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwuv",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxQ",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxS",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxU",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxW",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3JnbVLYxz9fAdFmHbI1_pp",
+          "cost": 39036.448936633911
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvM0b",
+          "cost": 39036.448936633911
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvM5J",
+          "cost": 39036.448936633911
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvNw9",
+          "cost": 39036.448936633911
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvNxl",
+          "cost": 19497.511814123569
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvNxj",
+          "cost": 19497.511814123569
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvNxZ",
+          "cost": 19497.511814123569
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvNxX",
+          "cost": 19497.511814123569
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvNxd",
+          "cost": 19497.511814123569
+        },
+        {
+          "guid": "3CvXTZheX82PNWQ8ubvNxb",
+          "cost": 19497.511814123569
+        },
+        {
+          "guid": "1WqyR5ytLDpPOdrs1$edIz",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "213ozc$o98OgDOp9xk3A7k",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3Dx8k_G_9DG86dhLildq45",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3Dx8k_G_9DG86dhLildqpi",
+          "cost": 15875.420082507851
+        }
+      ]
+    },
+    "SSlab": {
+      "sdate": "2023-11-03T00:00:00",
+      "edate": "2023-11-08T00:00:00",
+      "elements": [
+        {
+          "guid": "1AAtL7RPfBUPdU6pNLHA2L",
+          "cost": 559721.30760000006
+        },
+        {
+          "guid": "3S9j5WuQX5iQ3xbTvkOZPG",
+          "cost": 1615439.2790102768
+        },
+        {
+          "guid": "0_xig6q1L8zwK8rULh7Kmq",
+          "cost": 0.0
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfRL",
+          "cost": 234472.601292156
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfU4",
+          "cost": 0.0
+        },
+        {
+          "guid": "3tYUbv9bjCMxs7Jcvs$Mql",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdv_",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdn6",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdWN",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwx4",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxl",
+          "cost": 0.0
+        }
+      ]
+    },
+    "ACurtainWall": {
+      "sdate": "2023-11-18T00:00:00",
+      "edate": "2023-11-26T00:00:00",
+      "elements": [
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajgK4",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekCjJ",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekFIi",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajgPE",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekCjH",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekCjI",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajgRG",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekCjN",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "0SK7mothTBHOnKrzIekCjG",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "04XwalfJb6Hxc7LsY29ULt",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "04XwalfJb6Hxc7LsY29ULd",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "04XwalfJb6Hxc7LsY29ULa",
+          "cost": 746608.09479894
+        }
+      ]
+    },
+    "AWindow": {
+      "sdate": "2024-05-17T00:00:00",
+      "edate": "2024-05-30T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxna",
+          "cost": 2616390.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6o4",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6nj",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6sl",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "37hKYevhL1Eh9emJucgCxl",
+          "cost": 386781.30658800004
+        },
+        {
+          "guid": "3K2SAoasH1BOUf5VvDnopO",
+          "cost": 386781.30658800004
+        }
+      ]
+    },
+    "ADoor": {
+      "sdate": "2024-08-30T00:00:00",
+      "edate": "2024-09-06T00:00:00",
+      "elements": [
+        {
+          "guid": "279ZKoUyLE$8OYR7gUdrFq",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfYI",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfbG",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "1eU9N_aC90YALQ2E1ar6s4",
+          "cost": 1204822.29
+        }
+      ]
+    },
+    "ACovering": {
+      "sdate": "2024-08-09T00:00:00",
+      "edate": "2024-08-24T00:00:00",
+      "elements": [
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLpz",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLi$",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLj4",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLk6",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AWall": {
+      "sdate": "2024-08-13T00:00:00",
+      "edate": "2024-08-20T00:00:00",
+      "elements": [
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajf6U",
+          "cost": 5161295.32512
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfic",
+          "cost": 1852366.5242724556
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfkj",
+          "cost": 1932904.055126809
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajgHD",
+          "cost": 1654399.0179121315
+        }
+      ]
+    },
+    "ASlab": {
+      "sdate": "2024-08-20T00:00:00",
+      "edate": "2024-08-30T00:00:00",
+      "elements": []
+    },
+    "AFurniture": {
+      "sdate": "2024-08-30T00:00:00",
+      "edate": "2024-09-06T00:00:00",
+      "elements": []
+    },
+    "ARailing": {
+      "sdate": "2024-08-30T00:00:00",
+      "edate": "2024-09-06T00:00:00",
+      "elements": [
+        {
+          "guid": "0_xig6q1L8zwK8rULh7JJx",
+          "cost": 0
+        }
+      ]
+    }
+  },
+  "3FL": {
+    "SWall": {
+      "sdate": "2023-10-15T00:00:00",
+      "edate": "2023-10-23T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxl_",
+          "cost": 10903627.3815376
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxl$",
+          "cost": 5414875.00854
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxi0",
+          "cost": 1065885.6860816057
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxi1",
+          "cost": 7092640.9955775524
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxi3",
+          "cost": 4038523.8384017944
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxi4",
+          "cost": 0.0
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxi6",
+          "cost": 0.0
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxi7",
+          "cost": 0.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wX",
+          "cost": 6465304.409156
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wY",
+          "cost": 12152849.453699598
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAUx",
+          "cost": 14952007.416510256
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAUw",
+          "cost": 1828533.7716000115
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA30",
+          "cost": 15087756.84666235
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAv4",
+          "cost": 7303784.8952399995
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAv3",
+          "cost": 6300328.1121718
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAv2",
+          "cost": 2014890.4009623271
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAv0",
+          "cost": 1810552.144484326
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwL",
+          "cost": 6690133.5615758849
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwww",
+          "cost": 6623662.3339041155
+        }
+      ]
+    },
+    "SStair": {
+      "sdate": "2023-10-15T00:00:00",
+      "edate": "2023-10-23T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAQc",
+          "cost": 1032501.8844315507
+        }
+      ]
+    },
+    "SColumn": {
+      "sdate": "2023-11-14T00:00:00",
+      "edate": "2023-11-22T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KFZ",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KFj",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KFl",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KFf",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2q",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2s",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2m",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2o",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxl2",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxl4",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxl6",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxl8",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlA",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlC",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6rt",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6rn",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6rp",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wD",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxz",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwx$",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGww1",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGww3",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwY",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwa",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwc",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwe",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRwm",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRvh",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRYn",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRWi",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRkE",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRi3",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRhp",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxReE",
+          "cost": 39911.200606071179
+        }
+      ]
+    },
+    "SBeam": {
+      "sdate": "2023-11-14T00:00:00",
+      "edate": "2023-11-22T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZr",
+          "cost": 5587.0577114405287
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZt",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZn",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZp",
+          "cost": 11097.463716474096
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZz",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZ$",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JZv",
+          "cost": 23915.332398971092
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWl",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWf",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JWh",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JXL",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JXN",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JXH",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JXJ",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcU",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcO",
+          "cost": 11105.980572741555
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcQ",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jc4",
+          "cost": 5331.5520234173437
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jc6",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jc0",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcE",
+          "cost": 11812.879642939064
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jc8",
+          "cost": 5459.3048674289275
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JcA",
+          "cost": 25022.523713738308
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Jcs",
+          "cost": 24826.636019587186
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JbT",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JbV",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JbP",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89JbR",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KFh",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KCL",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KCN",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KCH",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2y",
+          "cost": 15875.420082507851
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2_",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2u",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2w",
+          "cost": 15875.420082507851
+        },
+        {
+          "guid": "279ZKoUyLE$8OYR7gUdqd0",
+          "cost": 4591.3050128867362
+        },
+        {
+          "guid": "279ZKoUyLE$8OYR7gUdqaY",
+          "cost": 4591.3050128867362
+        },
+        {
+          "guid": "279ZKoUyLE$8OYR7gUdqbY",
+          "cost": 19152.30091089899
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlE",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlG",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlI",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlK",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlM",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlO",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlQ",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlh",
+          "cost": 23625.759285878128
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlj",
+          "cost": 5672.22627411493
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxll",
+          "cost": 5672.22627411493
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wF",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6w9",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wB",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6w5",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwux",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwuz",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwu$",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwx1",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxY",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxa",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxc",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxe",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGww5",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGww7",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGww9",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwB",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwg",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwi",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwk",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwm",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "00EiV04hXBPw$4BZwD6kow",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "00EiV04hXBPw$4BZwD6jCp",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "1aEHbHMkvEIxszxBsViuib",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "1aEHbHMkvEIxszxBsViuXX",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1Gl8lLLzb5QBgh78A4QrGB",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV2L",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "3h4L$SRef7NwVGzPNpULoJ",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "3h4L$SRef7NwVGzPNpUM9U",
+          "cost": 15875.420082507851
+        }
+      ]
+    },
+    "SSlab": {
+      "sdate": "2023-11-23T00:00:00",
+      "edate": "2023-12-01T00:00:00",
+      "elements": [
+        {
+          "guid": "0_xig6q1L8zwK8rULh7J7i",
+          "cost": 572046.28284375323
+        },
+        {
+          "guid": "3ud9UmcGb1aehd4R$ajfe$",
+          "cost": 0.0
+        },
+        {
+          "guid": "1Po3wKaJjBOOvFktZBQZed",
+          "cost": 1039396.2646548597
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlv",
+          "cost": 0.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wa",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAGZ",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAv9",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdtN",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdl3",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdb3",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxD",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwxq",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwM",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGww$",
+          "cost": 0.0
+        }
+      ]
+    },
+    "ACurtainWall": {
+      "sdate": "2023-12-08T00:00:00",
+      "edate": "2023-12-16T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAv$",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAxI",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAxJ",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAvq",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAxG",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAxH",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAvf",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAxE",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAxF",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "04XwalfJb6Hxc7LsY29Hib",
+          "cost": 1595274.0977123971
+        },
+        {
+          "guid": "04XwalfJb6Hxc7LsY29HlL",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "04XwalfJb6Hxc7LsY29HlI",
+          "cost": 746608.09479894
+        }
+      ]
+    },
+    "AWindow": {
+      "sdate": "2024-05-31T00:00:00",
+      "edate": "2024-06-13T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiI",
+          "cost": 2616390.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wZ",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wy",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wz",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "37hKYevhL1Eh9emJucgCu3",
+          "cost": 386781.30658800004
+        },
+        {
+          "guid": "3K2SAoasH1BOUf5VvDno$U",
+          "cost": 386781.30658800004
+        }
+      ]
+    },
+    "ADoor": {
+      "sdate": "2024-09-27T00:00:00",
+      "edate": "2024-10-04T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiE",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiF",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiG",
+          "cost": 1204822.29
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA3l",
+          "cost": 781630.12457633112
+        }
+      ]
+    },
+    "ACovering": {
+      "sdate": "2024-09-06T00:00:00",
+      "edate": "2024-09-21T00:00:00",
+      "elements": [
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLkh",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLe_",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLfa",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLg3",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AWall": {
+      "sdate": "2024-09-10T00:00:00",
+      "edate": "2024-09-17T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxi2",
+          "cost": 5161295.32512
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAv1",
+          "cost": 1735821.3938261832
+        }
+      ]
+    },
+    "ASlab": {
+      "sdate": "2024-09-17T00:00:00",
+      "edate": "2024-09-27T00:00:00",
+      "elements": []
+    },
+    "AFurniture": {
+      "sdate": "2024-09-27T00:00:00",
+      "edate": "2024-10-04T00:00:00",
+      "elements": []
+    },
+    "ARailing": {
+      "sdate": "2024-09-27T00:00:00",
+      "edate": "2024-10-04T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZATN",
+          "cost": 0
+        }
+      ]
+    }
+  },
+  "4FL": {
+    "SWall": {
+      "sdate": "2023-11-02T00:00:00",
+      "edate": "2023-11-12T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfv",
+          "cost": 10903627.3815376
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfw",
+          "cost": 5414875.0085399933
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfx",
+          "cost": 1065885.6860816057
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfy",
+          "cost": 7092640.9955775524
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxf_",
+          "cost": 4038523.8384017944
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxf$",
+          "cost": 0.0
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxc1",
+          "cost": 0.0
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxc2",
+          "cost": 0.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6uM",
+          "cost": 6465304.409156
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6uN",
+          "cost": 12152849.453699598
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAHP",
+          "cost": 15112733.355925005
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAHO",
+          "cost": 1828533.7716000057
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA3i",
+          "cost": 14925232.96997245
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAx4",
+          "cost": 7303784.8952399995
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAx3",
+          "cost": 6497313.81284485
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoT",
+          "cost": 6690133.5615758849
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV07",
+          "cost": 6623662.3339041155
+        }
+      ]
+    },
+    "SStair": {
+      "sdate": "2023-11-02T00:00:00",
+      "edate": "2023-11-12T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZASl",
+          "cost": 1032501.8844315539
+        }
+      ]
+    },
+    "SColumn": {
+      "sdate": "2023-12-02T00:00:00",
+      "edate": "2023-12-12T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kvo",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kvy",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kv_",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kvu",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_w",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_a",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_c",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_W",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxez",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxe$",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxf1",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxf3",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxf5",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxf7",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xa",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xc",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xW",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xY",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRKO",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0u0gWsBjzFovlkOJqtxRIx",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "30Q18kQXH3FeJE5qrL2szO",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "30Q18kQXH3FeJE5qrL2s_D",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aob",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aod",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aof",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoh",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoC",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoE",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0l",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0j",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0J",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0H",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV1t",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV1r",
+          "cost": 39911.200606071179
+        }
+      ]
+    },
+    "SBeam": {
+      "sdate": "2023-12-02T00:00:00",
+      "edate": "2023-12-12T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KCJ",
+          "cost": 11625.508805055384
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KCT",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KCV",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KCP",
+          "cost": 6072.5185186845974
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KCR",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KC5",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KC7",
+          "cost": 24085.669524319896
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2a",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2c",
+          "cost": 5544.4734301033286
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2W",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2Y",
+          "cost": 11105.980572741555
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2i",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2k",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K2e",
+          "cost": 12869.46247221183
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K3K",
+          "cost": 6447.2601944519611
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K3M",
+          "cost": 9905.1038390325339
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K3G",
+          "cost": 24792.568594517423
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K3I",
+          "cost": 24971.422576133667
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K3S",
+          "cost": 24784.051738249982
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kvw",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kva",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kvc",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KvW",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_Y",
+          "cost": 15875.420082507851
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_i",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_k",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_e",
+          "cost": 15875.420082507851
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlS",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlU",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlW",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlY",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxla",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlc",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxle",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxln",
+          "cost": 4591.3050128867362
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlp",
+          "cost": 4591.3050128867362
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxlr",
+          "cost": 19152.30091089899
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxf9",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfB",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfD",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfF",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfH",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfJ",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfL",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfc",
+          "cost": 23625.759285878128
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfe",
+          "cost": 5672.22627411493
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfg",
+          "cost": 5672.22627411493
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6w7",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6w1",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6w3",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6wT",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xy",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6x_",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xu",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xw",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwD",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwF",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwH",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwJ",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwo",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwq",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwws",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwu",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "00EiV04hXBPw$4BZwD6j67",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "00EiV04hXBPw$4BZwD6j15",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "1aEHbHMkvEIxszxBsViud5",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoj",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aol",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoH",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoJ",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2arm",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV4R",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0N",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0L",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0R",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0P",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV1v",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "05w99kILj8VP92rmus4aV9",
+          "cost": 15875.420082507851
+        }
+      ]
+    },
+    "SSlab": {
+      "sdate": "2023-12-13T00:00:00",
+      "edate": "2023-12-21T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfq",
+          "cost": 0.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6uP",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAJR",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAx9",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Gwrr5qZTAfg8YARjs1mti",
+          "cost": 1570095.4718475034
+        },
+        {
+          "guid": "3Gwrr5qZTAfg8YARjs1mpu",
+          "cost": 609549.78532499669
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdcR",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdTZ",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdVE",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdHq",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwwV",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwr4",
+          "cost": 0.0
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoU",
+          "cost": 0.0
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV04",
+          "cost": 0.0
+        }
+      ]
+    },
+    "ACurtainWall": {
+      "sdate": "2023-12-28T00:00:00",
+      "edate": "2024-01-05T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAx$",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAzI",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAzJ",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAxq",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAzG",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAzH",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAxf",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAzE",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAzF",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "1NvpnW7c18r8aJp0qEe1dY",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "1NvpnW7c18r8aJp0qEe1dp",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "1NvpnW7c18r8aJp0qEe1do",
+          "cost": 746608.09479894
+        }
+      ]
+    },
+    "AWindow": {
+      "sdate": "2024-06-14T00:00:00",
+      "edate": "2024-06-27T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxcD",
+          "cost": 2616390.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6uG",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6uH",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6uI",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "37hKYevhL1Eh9emJucgCsV",
+          "cost": 386781.30658800004
+        },
+        {
+          "guid": "3K2SAoasH1BOUf5VvDno$Q",
+          "cost": 386781.30658800004
+        }
+      ]
+    },
+    "ADoor": {
+      "sdate": "2024-10-25T00:00:00",
+      "edate": "2024-11-01T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxc9",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxcA",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxcB",
+          "cost": 1204822.29
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA2R",
+          "cost": 781630.12457633112
+        }
+      ]
+    },
+    "ACovering": {
+      "sdate": "2024-10-04T00:00:00",
+      "edate": "2024-10-19T00:00:00",
+      "elements": [
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLgj",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLhK",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLhJ",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLhQ",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AWall": {
+      "sdate": "2024-10-08T00:00:00",
+      "edate": "2024-10-15T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfz",
+          "cost": 5161295.32512
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAx2",
+          "cost": 1852366.5242724556
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAx1",
+          "cost": 1936182.9472967614
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAx0",
+          "cost": 1654399.0179121315
+        }
+      ]
+    },
+    "ASlab": {
+      "sdate": "2024-10-15T00:00:00",
+      "edate": "2024-10-25T00:00:00",
+      "elements": []
+    },
+    "AFurniture": {
+      "sdate": "2024-10-25T00:00:00",
+      "edate": "2024-11-01T00:00:00",
+      "elements": []
+    },
+    "ARailing": {
+      "sdate": "2024-10-25T00:00:00",
+      "edate": "2024-11-01T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZASW",
+          "cost": 0
+        }
+      ]
+    }
+  },
+  "5FL": {
+    "SWall": {
+      "sdate": "2023-11-22T00:00:00",
+      "edate": "2023-11-30T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjM",
+          "cost": 10903627.3815376
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjN",
+          "cost": 5414875.0085399933
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjO",
+          "cost": 1065885.6860816057
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjP",
+          "cost": 7092640.9955775524
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjR",
+          "cost": 4038523.8384018
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjS",
+          "cost": 0.0
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjU",
+          "cost": 0.0
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjV",
+          "cost": 0.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6_B",
+          "cost": 6465304.409156
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6_4",
+          "cost": 12152849.453699598
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAHt",
+          "cost": 15646349.475935029
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAHs",
+          "cost": 5161295.3251200058
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA2O",
+          "cost": 15087756.84666235
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAz4",
+          "cost": 7303784.8952399995
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAz3",
+          "cost": 6294682.9454099508
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAz2",
+          "cost": 2014890.40096235
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAz1",
+          "cost": 1745367.3949616484
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAz0",
+          "cost": 1832828.799015444
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atz",
+          "cost": 6690133.5615758849
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEG",
+          "cost": 6623662.3339041155
+        }
+      ]
+    },
+    "SStair": {
+      "sdate": "2023-11-22T00:00:00",
+      "edate": "2023-11-30T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZATi",
+          "cost": 1052014.885475643
+        }
+      ]
+    },
+    "SColumn": {
+      "sdate": "2023-12-22T00:00:00",
+      "edate": "2023-12-30T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kr8",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KrA",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Krq",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Krs",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgm",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgo",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgy",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kg_",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiQ",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiS",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiU",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiW",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiY",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxia",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vP",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vR",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vL",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vN",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "30Q18kQXH3FeJE5qrL2ssH",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "30Q18kQXH3FeJE5qrL2stv",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "30Q18kQXH3FeJE5qrL2t53",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "30Q18kQXH3FeJE5qrL2t6r",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aq5",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aq7",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aq9",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aqB",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2ati",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atk",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEu",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVE_",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEy",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEY",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVE0",
+          "cost": 39911.200606071179
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVE6",
+          "cost": 39911.200606071179
+        }
+      ]
+    },
+    "SBeam": {
+      "sdate": "2023-12-22T00:00:00",
+      "edate": "2023-12-30T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KvY",
+          "cost": 6072.5185186845974
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kvi",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kvk",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kve",
+          "cost": 11625.508805055384
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kvg",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_K",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_M",
+          "cost": 24085.669524319896
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K_g",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$K",
+          "cost": 11003.778297532272
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$M",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$G",
+          "cost": 5331.5520234173437
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$I",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$S",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$U",
+          "cost": 12869.46247221183
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$Q",
+          "cost": 11812.879642939064
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$4",
+          "cost": 4982.3609164522986
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89K$0",
+          "cost": 24826.636019587186
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kq4",
+          "cost": 25201.377695354549
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Krm",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kro",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kry",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kr_",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgu",
+          "cost": 15875.420082507851
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgw",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kga",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgc",
+          "cost": 15875.420082507851
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxic",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxie",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxig",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxii",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxik",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxim",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxio",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxj3",
+          "cost": 23625.759285878128
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxj5",
+          "cost": 5672.22627411493
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxj7",
+          "cost": 5672.22627411493
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfN",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfP",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfR",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfT",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfV",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfX",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfZ",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfi",
+          "cost": 4591.3050128867362
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfk",
+          "cost": 4591.3050128867362
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxfm",
+          "cost": 19152.30091089899
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xq",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xs",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xm",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6xo",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vH",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vJ",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vj",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vl",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "3sq2y7sJLFzeJDKOn4_8Rj",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "3sq2y7sJLFzeJDKOn4_8Oi",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoL",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoN",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoP",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aoR",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aro",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aqD",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2aqF",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atn",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atp",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atG",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0V",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0T",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV03",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV01",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV1x",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEW",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEc",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEa",
+          "cost": 73704.874138424333
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEg",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEA",
+          "cost": 26010.47904076118
+        },
+        {
+          "guid": "0tq_X5IHr5U9gE9JMIQJ7m",
+          "cost": 15875.420082507851
+        }
+      ]
+    },
+    "SSlab": {
+      "sdate": "2024-01-02T00:00:00",
+      "edate": "2024-01-10T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjH",
+          "cost": 0.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6_E",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAJJ",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAz9",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Gwrr5qZTAfg8YARjs1mqs",
+          "cost": 563863.37523749331
+        },
+        {
+          "guid": "20FuKF8Yn5G8GI1Piw3Kyz",
+          "cost": 1104054.7889975247
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdIy",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdAE",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdBK",
+          "cost": 0.0
+        },
+        {
+          "guid": "2GfrQNMbb2NO8HlKTvMdFp",
+          "cost": 0.0
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2ao7",
+          "cost": 0.0
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2at_",
+          "cost": 0.0
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV0D",
+          "cost": 0.0
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEL",
+          "cost": 0.0
+        }
+      ]
+    },
+    "ACurtainWall": {
+      "sdate": "2024-01-17T00:00:00",
+      "edate": "2024-01-25T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAz$",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA$I",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA$J",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAzq",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA$G",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA$H",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAzf",
+          "cost": 1595274.0977124
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA$E",
+          "cost": 746608.09479894
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA$F",
+          "cost": 746608.09479894
+        }
+      ]
+    },
+    "AWindow": {
+      "sdate": "2024-06-28T00:00:00",
+      "edate": "2024-07-11T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjg",
+          "cost": 2616390.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6_5",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6_6",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6_7",
+          "cost": 357070.711815
+        },
+        {
+          "guid": "37hKYevhL1Eh9emJucgCrh",
+          "cost": 386781.30658800004
+        },
+        {
+          "guid": "3K2SAoasH1BOUf5VvDno$c",
+          "cost": 386781.30658800004
+        }
+      ]
+    },
+    "ADoor": {
+      "sdate": "2024-11-22T00:00:00",
+      "edate": "2024-11-29T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjc",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjd",
+          "cost": 781630.12457633112
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxje",
+          "cost": 1204822.29
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA27",
+          "cost": 781630.12457633112
+        }
+      ]
+    },
+    "ACovering": {
+      "sdate": "2024-11-01T00:00:00",
+      "edate": "2024-11-16T00:00:00",
+      "elements": [
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLhc",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLhj",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLaK",
+          "cost": 0.0
+        },
+        {
+          "guid": "0T2AZJBpL9MuO30$YAsLaJ",
+          "cost": 0.0
+        }
+      ]
+    },
+    "AWall": {
+      "sdate": "2024-11-05T00:00:00",
+      "edate": "2024-11-12T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjQ",
+          "cost": 5161295.32512
+        }
+      ]
+    },
+    "ASlab": {
+      "sdate": "2024-11-12T00:00:00",
+      "edate": "2024-11-22T00:00:00",
+      "elements": []
+    },
+    "AFurniture": {
+      "sdate": "2024-11-22T00:00:00",
+      "edate": "2024-11-29T00:00:00",
+      "elements": []
+    },
+    "ARailing": {
+      "sdate": "2024-11-22T00:00:00",
+      "edate": "2024-11-29T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAST",
+          "cost": 0
+        }
+      ]
+    }
+  },
+  "Roof": {
+    "SWall": {
+      "sdate": "2023-12-12T00:00:00",
+      "edate": "2023-12-20T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V7sEirxgk",
+          "cost": 11177332.436657598
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V7sEirxgl",
+          "cost": 3091198.2706552641
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V7sEirxgm",
+          "cost": 1065885.6860816057
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V7sEirxgn",
+          "cost": 6190444.7327109827
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V7sEirxgo",
+          "cost": 5161295.32512
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V7sEirxgp",
+          "cost": 4038523.8384018056
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxgq",
+          "cost": 0.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6$u",
+          "cost": 760624.04813599994
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6$v",
+          "cost": 2035537.5947999251
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBZLtXZAGL",
+          "cost": 15646349.475935029
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBZLtXZAGK",
+          "cost": 5161295.3251200058
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBZLtXZA24",
+          "cost": 14853000.135888051
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGws1",
+          "cost": 786614.52815999417
+        },
+        {
+          "guid": "144mGvzG13bRR8HYjHRfmV",
+          "cost": 778564.37948000582
+        },
+        {
+          "guid": "144mGvzG13bRR8HYjHRfxQ",
+          "cost": 508309.38807999884
+        },
+        {
+          "guid": "144mGvzG13bRR8HYjHRfbb",
+          "cost": 2034387.57356
+        }
+      ]
+    },
+    "SStair": {
+      "sdate": "2023-12-12T00:00:00",
+      "edate": "2023-12-20T00:00:00",
+      "elements": []
+    },
+    "SColumn": {
+      "sdate": "2024-01-11T00:00:00",
+      "edate": "2024-01-19T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KWT",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KWV",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KWP",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KWR",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjo",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjq",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjs",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxju",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjw",
+          "cost": 35215.765240651024
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjy",
+          "cost": 35215.765240651024
+        }
+      ]
+    },
+    "SBeam": {
+      "sdate": "2024-01-11T00:00:00",
+      "edate": "2024-01-19T00:00:00",
+      "elements": [
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kru",
+          "cost": 11601.662443598958
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Krw",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kra",
+          "cost": 45940.667001125337
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Krc",
+          "cost": 11003.778297532397
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KrW",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KrY",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KgW",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KgY",
+          "cost": 5544.4734301033286
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgi",
+          "cost": 12869.462472211848
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgk",
+          "cost": 11625.508805055384
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kge",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89Kgg",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KhK",
+          "cost": 12869.46247221183
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KhG",
+          "cost": 6966.7884267657892
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KhI",
+          "cost": 10424.632071346365
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KhS",
+          "cost": 25005.490001203427
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KhU",
+          "cost": 25073.624851342945
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KhO",
+          "cost": 24784.051738249982
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KW5",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KW7",
+          "cost": 56671.16160354465
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KW1",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KW3",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KXD",
+          "cost": 17025.195678612228
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KXF",
+          "cost": 74726.896890517135
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KX9",
+          "cost": 74726.896890517135
+        },
+        {
+          "guid": "2KZHbVUyT1zQR5IOt89KXB",
+          "cost": 17025.195678612228
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiq",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxis",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiu",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiw",
+          "cost": 12662.335930277099
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxiy",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxi_",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxj0",
+          "cost": 18323.794743159997
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxj9",
+          "cost": 4591.3050128867362
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjB",
+          "cost": 4591.3050128867362
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxjD",
+          "cost": 19152.30091089899
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxj_",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxg0",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxg2",
+          "cost": 24307.107787273337
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxg4",
+          "cost": 15619.914394484666
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxg6",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxg8",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxgA",
+          "cost": 22603.736533785319
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxgR",
+          "cost": 23625.759285878128
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxgT",
+          "cost": 5672.22627411493
+        },
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxgV",
+          "cost": 5672.22627411493
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vf",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vh",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vb",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6vd",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6$6",
+          "cost": 25456.88338337775
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6$0",
+          "cost": 74726.896890517135
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6$2",
+          "cost": 74726.896890517135
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6$S",
+          "cost": 25456.88338337775
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwtn",
+          "cost": 27160.254636865593
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwtp",
+          "cost": 74726.896890517135
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwtr",
+          "cost": 74726.896890517135
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwtt",
+          "cost": 27160.254636865593
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwsH",
+          "cost": 27032.501792853996
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwsJ",
+          "cost": 74726.896890517135
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwsL",
+          "cost": 74726.896890517135
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwsN",
+          "cost": 27032.501792853996
+        },
+        {
+          "guid": "3sq2y7sJLFzeJDKOn4_8IR",
+          "cost": 19704.63835605832
+        },
+        {
+          "guid": "3sq2y7sJLFzeJDKOn4_8hg",
+          "cost": 25329.13053936615
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atr",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2att",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atv",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atx",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atI",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "3tvejcpXb1096NJoe$QTzV",
+          "cost": 27032.501792853996
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEe",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEk",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEi",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEI",
+          "cost": 59749.103130108007
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVE4",
+          "cost": 21085.481968956461
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChV8Z",
+          "cost": 27032.501792853996
+        }
+      ]
+    },
+    "SSlab": {
+      "sdate": "2024-01-20T00:00:00",
+      "edate": "2024-01-30T00:00:00",
+      "elements": [
+        {
+          "guid": "22Y7_CqbX9Z90V5sAirxgf",
+          "cost": 0.0
+        },
+        {
+          "guid": "1nESEl_DP0yfKA_0n$_6$Z",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZAJB",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA$9",
+          "cost": 0.0
+        },
+        {
+          "guid": "3Gwrr5qZTAfg8YARjs1msH",
+          "cost": 1567208.2551813486
+        },
+        {
+          "guid": "3$DJzdp_z5y9S4hXYO8$MD",
+          "cost": 0.0
+        },
+        {
+          "guid": "3$DJzdp_z5y9S4hXYO8ykl",
+          "cost": 0.0
+        },
+        {
+          "guid": "3$DJzdp_z5y9S4hXYO8yeF",
+          "cost": 0.0
+        },
+        {
+          "guid": "3$DJzdp_z5y9S4hXYO8yb5",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGws2",
+          "cost": 0.0
+        },
+        {
+          "guid": "3D8A2Op_5BzRdJ_Y4HGwsY",
+          "cost": 0.0
+        },
+        {
+          "guid": "0FhDqRIg95P8UEzBnG2atd",
+          "cost": 0.0
+        },
+        {
+          "guid": "1i3vl1MrPCh94$wcKChVEU",
+          "cost": 0.0
+        }
+      ]
+    },
+    "ACurtainWall": {
+      "sdate": "2024-02-04T00:00:00",
+      "edate": "2024-02-14T00:00:00",
+      "elements": []
+    },
+    "AWindow": {
+      "sdate": "2024-07-12T00:00:00",
+      "edate": "2024-07-25T00:00:00",
+      "elements": [
+        {
+          "guid": "37hKYevhL1Eh9emJucgCps",
+          "cost": 386781.30658800004
+        }
+      ]
+    },
+    "ADoor": {
+      "sdate": "2024-12-20T00:00:00",
+      "edate": "2024-12-27T00:00:00",
+      "elements": [
+        {
+          "guid": "3Ik9QIBUX2bxiBXLpXZA2p",
+          "cost": 781630.12457633112
+        }
+      ]
+    },
+    "ACovering": {
+      "sdate": "2024-11-29T00:00:00",
+      "edate": "2024-12-14T00:00:00",
+      "elements": []
+    },
+    "AWall": {
+      "sdate": "2024-12-03T00:00:00",
+      "edate": "2024-12-10T00:00:00",
+      "elements": []
+    },
+    "ASlab": {
+      "sdate": "2024-12-10T00:00:00",
+      "edate": "2024-12-20T00:00:00",
+      "elements": []
+    },
+    "AFurniture": {
+      "sdate": "2024-12-20T00:00:00",
+      "edate": "2024-12-27T00:00:00",
+      "elements": []
+    },
+    "ARailing": {
+      "sdate": "2024-12-20T00:00:00",
+      "edate": "2024-12-27T00:00:00",
+      "elements": [
+        {
+          "guid": "1K$37UPdP4dBX22UNK$xEq",
+          "cost": 0
+        },
+        {
+          "guid": "1K$37UPdP4dBX22UNK$x6e",
+          "cost": 0
+        },
+        {
+          "guid": "144mGvzG13bRR8HYjHReNy",
+          "cost": 0
+        },
+        {
+          "guid": "2mZk20Jdj2Qw34wTvjekqE",
+          "cost": 0
+        },
+        {
+          "guid": "2mZk20Jdj2Qw34wTvjekYe",
+          "cost": 0
+        }
+      ]
+    }
+  }
+}

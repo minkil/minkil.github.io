@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/styles.css">
+  <title>AiBIM_Viewer</title>
+  <script src="https://aframe.io/releases/1.4.1/aframe.min.js"></script>
+  <script src="/js/bundle.js"></script>
+  <script src="/js/jquery.js"></script>
+  <script src="/js/task.js"></script>
+  <script src="/js/simple-navmesh-constraint.js"></script>
+  <script src="/js/wasd.js"></script>
+  <script src="/js/joystick.js"></script>
+  <script src="/js/cursor_click.js"></script>
+  <script src="/js/select.js"></script>
+</head>
+
+<body>
+  <canvas id="three-canvas"></canvas>
+  <a-scene id="a_scene" background="color: #837E7C" cursor="rayOrigin: mouse; fuse: false;"
+    raycaster="objects: .raycastable" vr-mode-ui="enabled: true" class="a-enter-vr" scenemgr
+    webxr="optionalFeatures: dom-overlay, hit-test; overlayElement: #overlay" embedded>
+    <a-entity id="joystick" joystick></a-entity>
+
+    <!-- ifc 로딩 -->
+    <a-entity class="navmesh" id="a_world" position="-1.5 0.5 -2" rotation="0 14.5 0" class="raycastable"></a-entity>
+
+    <!-- 터치를 위한 백그라운드 로딩 -->
+    <a-entity id="background" position="0 0 0" geometry="primitive: sphere; radius: 2.0"
+      material="color: red; side: back; shader: flat" scale="10 10 10" visible="false" class="raycastable"></a-entity>
+
+    <!-- camera -->
+    <a-entity id="cameraRig">
+      <a-camera id="camera" position="0 1.6 0" new-wasd-controls="acceleration:12;navmesh:.navmesh;"
+        simple-navmesh-constraint="navmesh: .navmesh;" look-controls="pointerLockEnabled: false">
+      </a-camera>
+    </a-entity>
+
+    <!-- Hand controls -->
+    <a-entity cursor cursor_click raycaster="objects: .raycastable"></a-entity>
+    <a-entity id="leftHand" cursor_click hand-controls="hand: left;" laser-controls="hand: left"
+      raycaster="objects: .raycastable" oculus-touch-controls="hand: left" thumbstick-logging></a-entity>
+    <a-entity id="rightHand" cursor_click hand-controls="hand: right;" laser-controls="hand: right"
+      raycaster="objects: .raycastable" oculus-touch-controls="hand: right" thumbstick-logging></a-entity>
+
+  </a-scene>
+  <div id="overlay">
+      <!-- exit AR button div -->
+      <div class="exitbtn">
+        <input id="exitXR" type="button" value="Exit AR"/>
+      </div>
+      <!-- 프로퍼티 정보 div -->
+      <div class="infobox" id="psetInfo">
+        <p id="cost_info">정보없음</p>
+        <p id="prpValTypeInfo"></p>
+        <p id="prpValTypeIdInfo"></p>
+        <p id="prpValCategoryInfo"></p>
+        <p id="prpValHeightInfo"></p>
+        <p id="prpValThicknessInfo"></p>
+        <p id="prpValExtentInfo"></p>
+      </div>
+      <!-- 공간정보 box div -->
+      <div class="spaceInfobox" id="spaceInfobox">
+        <p id="prpValNameinfo"></p>
+        <p id="prpValLevelinfo"></p>
+        <p id="prpValCeilingFinishinfo"></p>
+        <p id="prpValWallFinishinfo"></p>
+        <p id="prpValFloorFinishinfo"></p>
+        <p id="prpValFinishChangeinfo"></p>
+        <p id="prpValFinishLastinfo"></p>
+        <p id="prpValFinishCheckinfo"></p>
+        <p id="prpValFinishProductinfo"></p>
+      </div>
+      <!-- 체크박스 div -->
+      <div class="checkboxes">
+      <!-- 공간정보 button div -->
+        <!-- <div>
+          <input id="spaceInfobtn" type="button" value="공간정보"/>
+        </div> -->
+        <!-- <div><input id="infoCheckbox" type="checkbox" checked />
+        정보숨김</div> -->
+      <!-- <div><input id="slabCheckbox" type="checkbox" />
+        바닥/천장</div> -->
+        <!-- 설비 MEP Level 선택 div -->
+        <div id="distributionCheckbox">
+          <form action="#">설비확인
+            <select name="MEPLV" id="MEPLV">
+              <option value="0">되돌리기</option>
+              <option value="1">전체</option>
+            </select>
+            <input id="submit" type="button" value="확인" onclick="setDistributionLv()" />
+          </form>
+        </div>
+        <!-- ifcBeam MEP Level 선택 div -->
+        <div id="beamCheckbox">
+          <form action="#">보 확인
+            <select name="ReferenceLevel" id="ReferenceLevel">
+              <option value="0">되돌리기</option>
+              <option value="1">전체</option>
+            </select>
+            <input id="submit" type="button" value="확인" onclick="setBeamLv()" />
+          </form>
+        </div>
+        <div><input id="slabCheckbox" type="checkbox" />
+          바닥/천장</div>
+      <!-- 층수 이동 div -->
+      <!-- <div>
+        <form id="teleport" name="teleport" action="#">
+          <select name="floors" id="floors">
+            <option value="select">층수를 선택하세요</option>
+            <option value="-1">지하 1층</option>
+            <option value="1">1층</option>
+            <option value="2">2층</option>
+            <option value="3">3층</option>
+            <option value="4">4층</option>
+            <option value="5">5층</option>
+            <option value="6">옥상</option>
+          </select>
+          <input id="submit" type="button" value="이동" onclick="setFloor()" />
+        </form>
+      </div> -->
+      <!-- 색깔 선택 div -->
+      <div><input id="infoCheckbox" type="checkbox" checked />
+      <label for="backgroundColorPicker">색상변경:</label>
+        <input type="color" id="backgroundColorPicker">
+        <input id="reset" type="button" value="되돌리기" />
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
+
+<script>
+  // Sets up the scene
+  let scene = $("#a_world")[0].object3D;
+  //Sets up the IFC loading
+  const ifcModels = [];
+  const ifcLoader = new IFCLoader();
+  const taskScheduler = new TaskScheduler();
+  const slabSeeThrough = document.querySelector('#slabCheckbox');
+  const dstrbtnSeeThrough = document.querySelector('#distributionCheckbox');
+  const beambtnSeeThrough = document.querySelector('#beamCheckbox');
+  var space_subset = null;
+  var type_subsets = new Map();
+
+  var transparent_mat = new MeshLambertMaterial({
+    transparent: true,
+    opacity: 0.3,
+  });
+  const spaceMat = new MeshLambertMaterial({
+    transparent: true,
+    opacity: 0,
+  });
+
+  function setTypeTransparent(type, isTransparent) {
+    let subset = type_subsets.get(type);
+    let isSpace = type == "IFCSPACE";
+    let isSlab = type == "IFCSLAB" || type == "IFCCOVERING";
+    if (subset != null) {
+      if (subset["_old_material"] == undefined)
+        subset["_old_material"] = subset.material;
+      if (isTransparent) {
+        if (isSpace)
+          subset.material = spaceMat;
+        else if (isSlab)
+          subset.material = transparent_mat;
+        else
+          subset.visible = false;
+      }
+      else {
+        if (isSpace || isSlab)
+          subset.material = subset["_old_material"];
+        else
+          subset.visible = true;
+      }
+    }
+  }
+
+  // slab, covering 투명도 0로 조절
+  function setSlabTransparent(type, isTransparent) {
+    let subset = type_subsets.get(type);
+    let isSlab = type == "IFCSLAB" || type == "IFCCOVERING";
+    if (subset != null) {
+      if (subset["_old_material"] == undefined)
+        subset["_old_material"] = subset.material;
+      if (isTransparent) {
+        if (isSlab)
+          subset.material = spaceMat;
+        else
+          subset.visible = false;
+      }
+      else {
+        if (isSlab)
+          subset.material = subset["_old_material"];
+        else
+          subset.visible = true;
+      }
+    }
+  }
+
+  // ifc 모델 업로드 부분
+  ifcLoader.ifcManager.setWasmPath("../../../");
+  ifcLoader.load("/ifc/auditorium.ifc", async (ifcModel) => {
+    ifcModels.push(ifcModel);
+    await loadFloors();
+    await loadDistributionMap();
+    await loadBeamMap();
+    // ifcspace 투명도 조절
+    let subset = ifcLoader.ifcManager.getSubset(0, null, "IFCSPACE");
+    if (subset != null) {
+      // simple navmesh가 ifcspace subset을 수직으로는 통과할 수 있으나 공간 위로 붕 떠서 걸어다니는 문제 해결하기 위한 코드
+      space_subset = new THREE.Group();
+      space_subset.matrixWorld = subset.parent.matrixWorld.clone();
+      subset.parent.remove(subset);
+      space_subset.add(subset);
+      subset.updateMatrixWorld();
+      subset.material = subset.material.map(o_ => spaceMat);
+      // 아래 html에서 MEPVL이름이 바로 생성돼서 보여줄 수 있는 코드
+      for(let lv of distribution_subsets.keys()) {
+        document.getElementById("MEPLV").innerHTML += `<option value="${lv}">${lv}</option>`;
+      }
+      for(let lv of beam_subsets.keys()) {
+        document.getElementById("ReferenceLevel").innerHTML += `<option value="${lv}">${lv}</option>`;
+      }
+    }
+    
+    initCheckBoxes();
+  });
+
+  async function initCheckBoxes() {
+    // 바닥, 천장 투명도 조절
+    slabSeeThrough.addEventListener("change", (event) => {
+      const checked = event.target.checked;
+      if (checked) {
+        setTypeTransparent("IFCSLAB", true);
+        setTypeTransparent("IFCCOVERING", true);
+      }
+      else {
+        setTypeTransparent("IFCSLAB", false);
+        setTypeTransparent("IFCCOVERING", false);
+      }
+    })
+  }
+
+  async function collectNodes(node, map, stMap, typeMap) {
+    let modelid = 0;
+    let props = await ifcLoader.ifcManager.getItemProperties(0, node.expressID);
+    let type = await ifcLoader.ifcManager.getIfcType(0, node.expressID);
+    let guid = props["GlobalId"]?.value;
+    if (node.expressID == null)
+      return;
+
+    if (!typeMap.has(type)) {
+      typeMap.set(type, []);
+    }
+
+    typeMap.get(type).push(node.expressID);
+    
+    if (node.children != null) {
+      for (let ch of node.children) {
+        await collectNodes(ch, map, stMap, typeMap);
+      }
+    }
+  }
+
+  var stMap = new Map();
+
+  async function loadFloors() {
+    let ifcProject = await ifcLoader.ifcManager.getSpatialStructure(0);
+    var map = new Map();
+    var typeMap = new Map();
+    await collectNodes(ifcProject.children[0].children[0], map, stMap, typeMap);
+
+    for (let [key, value] of typeMap) {
+      let subset = ifcLoader.ifcManager.createSubset(
+        {
+          modelID: 0,
+          ids: value,
+          scene: scene,
+          removePrevious: true,
+          customID: key
+        });
+
+      // if ( subset.isMesh ) { 
+      //   subset.castShadow = true; 
+      //   subset.receiveShadow = true;
+      //   // subset.material[0].clipShadows = true;
+      // }
+      type_subsets.set(key, subset);
+    }
+
+    $.getJSON("/json/5DSim.json", (data) => {
+      taskScheduler.map = map;
+      taskScheduler.load(data);
+    });
+  }
+
+
+  // 공간정보 버튼 클릭 시 박스 생성
+  // const spaceInfobtn = document.querySelector('#spaceInfobtn');
+  // const spaceInfobox = document.querySelector('#spaceInfobox');
+  // var visible = true;
+
+  // spaceInfobtn.addEventListener("click", (event) => {
+  //   if (visible == true) {
+  //     visible = false;
+  //     spaceInfobox.style.visibility = "visible";
+  //   }
+  //   else {
+  //     visible = true;
+  //     spaceInfobox.style.visibility = "hidden";
+  //   }
+  // });
+
+  // var infobox_event_handler = null;
+
+  infobox_event_handler = (event) => {
+    var checked = event.target.checked;
+    if (checked) {
+      // htmlPsetInfo.style.visibility = "hidden";
+      ifcLoader.ifcManager.removeSubset(0, mat);
+    }
+    else {
+      // htmlPsetInfo.style.visibility = "visible";
+    }
+  }
+
+  // 정보숨김 checkbox 확인        
+  // const htmlPsetInfo = document.querySelector('#psetInfo'); // html 박스에 pset 정보 표시
+  const infoHide = document.querySelector('#infoCheckbox');
+  infoHide.addEventListener("change", infobox_event_handler);
+
+  // XR enter/exit 버튼
+  const exitXRbtn = document.querySelector('#exitXR');
+  const sceneEl = document.querySelector('a-scene');
+
+  if (sceneEl.addEventListener('enter-vr', function (event) {
+    exitXRbtn.style.visibility = "visible";
+  }));
+  else if(sceneEl.addEventListener('exit-vr', function (event){
+    exitXRbtn.style.visibility = "hidden";
+  }));
+  exitXRbtn.addEventListener("click", (event) => {
+      sceneEl.exitVRBound();
+  });
+
+</script>
